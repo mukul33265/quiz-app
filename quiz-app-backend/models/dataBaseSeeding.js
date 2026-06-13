@@ -1691,7 +1691,3695 @@ const testPapersDataNemraj = [
                 "negativeMarks": 0.25
             }
         ]
-    } 
+    } ,
+    {
+        title: "Soil Science Part-01",
+    
+        testSeriesId: "6a296dfd99dd14ee9f0c7882",
+    
+        durationSeconds: 7200,
+    
+        totalMarks: 100,
+    
+        negativeMarkingEnabled: true,
+    
+        shuffleQuestions: false,
+
+        questions : [
+  {
+    "id": 1,
+    "question": "The cultivation practices based on GIS, GPS is called:",
+    "options": ["Multistored farming", "Precision farming", "Conservation Agriculture", "Mixed farming"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 2,
+    "question": "A combination of contouring and crop rotation to prevent soil erosion is called:",
+    "options": ["Strip Cropping", "Precision Agriculture", "Trap cropping", "Companion Cropping"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 3,
+    "question": "Study of soil relations to growth and development of plant is known as:",
+    "options": ["Pedology", "Soil Genesis", "Soil Fertility", "Edaphology"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 4,
+    "question": "Science that deals with genesis and classification of soil is referred as:",
+    "options": ["Pedology", "Petrology", "Pedogogy", "Petrography"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 5,
+    "question": "Clay soil contains which type of pores in a large extent?",
+    "options": ["Capillary Pores", "Macro Pores", "Micro Pores", "Medium Pores"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 6,
+    "question": "Which type of soil has maximum porosity?",
+    "options": ["Sandy soil", "Sandy Loam", "Clay Loam soil", "Loamy Soil"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 7,
+    "question": "How many nutrients have been declared essential for plants so far?",
+    "options": ["13", "15", "17", "19"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 8,
+    "question": "In dryland farming area emphasis is on:",
+    "options": ["Moisture conservation practice", "Drainage", "Disposal of excess water", "All of these"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 9,
+    "question": "Honey comb structure is found in:",
+    "options": ["Black Soil", "Red soil", "Salt Affected soil", "Laterites soil"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 10,
+    "question": "The most abundant microorganism in soils are:",
+    "options": ["Protozoa", "Actinomycetes", "Bacteria", "Fungi"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 11,
+    "question": "Which among the following phosphatic fertilizer is water soluble or monocalcium phosphate fertilizer?",
+    "options": ["Raw bone meal", "Rock phosphate", "Basic slag", "Ammonium phosphate"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 12,
+    "question": "Which among the following crops has highest ODR?",
+    "options": ["Rice", "Wheat", "Maize", "Pea"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 13,
+    "question": "Which type of soil is suitable for producing Tea and cashew crop?",
+    "options": ["Black soil", "Alluvial soil", "Desert soil", "Laterite soil"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 14,
+    "question": "What is the order of alluvial soil?",
+    "options": ["Vertisol", "Alfisol", "Entisol", "Histosols"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 15,
+    "question": "Deficiency symptoms of immobile nutrients will appear first in:",
+    "options": ["Plant roots", "Young, upper leaves", "Older, lower leaves", "Flowers"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 16,
+    "question": "What is the pore space in loam soil?",
+    "options": ["40%", "43%", "47%", "50%"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 17,
+    "question": "pF value at field capacity is:",
+    "options": ["4.5", "1", "2.5", "4.2"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 18,
+    "question": "Which among the following nutrient is responsible for eutrophication?",
+    "options": ["N", "P", "K", "Both N & P"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 19,
+    "question": "When there is sodicity hazard in soil then a high sodium hazard occurs in which class?",
+    "options": ["S3", "S4", "S2", "C3"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 20,
+    "question": "Which crop requires maximum amount of nitrogen?",
+    "options": ["Potato", "Wheat", "Barley", "Sugarcane"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 21,
+    "question": "Water erosion sequence is:",
+    "options": ["Splash-Rill-Gully-Sheet-Ravine", "Gully-Sheet-Ravine-Rill-Splash", "Splash-Sheet-Rill-Gully-Ravine", "Splash-Rill-Ravine-Gully-Sheet"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 22,
+    "question": "Which among the following crop will be the indicator crop for deficiency of Potassium?",
+    "options": ["Sorghum", "Maize", "Cauliflower", "Eucalyptus"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 23,
+    "question": "Which element is most useful for root growth?",
+    "options": ["Nitrogen", "Phosphorous", "Boron", "Calcium"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 24,
+    "question": "Which nutrient is major role Energy exchange, transfer & bonding?",
+    "options": ["C, H, O", "Ca, Mg, K", "N, P, S", "H & K"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 25,
+    "question": "What is the silt % in clay textural classes soil?",
+    "options": ["0-50", "0-45", "45-65", "0-40"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 26,
+    "question": "Which of the following element is the structural part of chlorophyll?",
+    "options": ["Mg", "Fe", "Mn", "Fe"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 27,
+    "question": "Rhizobium japonicum can fix the nitrogen in the roots of:",
+    "options": ["Soybean", "Clover", "Lathyrus", "Lentil"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 28,
+    "question": "Indian Institute of Soil Science (ICAR-IISS), Bhopal was established in which year?",
+    "options": ["1974", "1947", "1975", "1988"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 29,
+    "question": "Use of CAN will have ......effect to soil?",
+    "options": ["Acidic", "Alkaline", "Neutral", "Sodic"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 30,
+    "question": "Which among the following have a good thermal conductivity?",
+    "options": ["Compact soil", "Natural structures", "Organic soil", "Both a & b"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 31,
+    "question": "Which among the following is not a reason for reduction in Porosity?",
+    "options": ["Continuous cropping", "Conventional tillage", "Virgin soil", "Both b & c"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 32,
+    "question": "Which among the following nutrient is the most immobile nutrient in plants and soil respectively?",
+    "options": ["Calcium, Zn", "B, Ca", "B, S", "Ca, B"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 33,
+    "question": "Which among the following is slow-release N fertilizer?",
+    "options": ["Urea form", "Methylene urease", "Sulfur-coated urea", "All of these"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 34,
+    "question": "Iron pyrite is used in the reclamation of?",
+    "options": ["Saline soil", "Sodic soil", "Acidic soil", "Neutral soil"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 35,
+    "question": "Study of soil from stand point of higher plants is called:",
+    "options": ["Pedology", "Edaphology", "Soil fertility", "Soil productivity"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 36,
+    "question": "The minerals having specific gravity more than 2.85 which are called:",
+    "options": ["Heavy minerals", "Light minerals", "Medium minerals", "Clay minerals"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 37,
+    "question": "Stratification is main feature of following rocks:",
+    "options": ["Sedimentary rocks", "Igneous rocks", "Metamorphic rocks", "Plutonic rocks"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 38,
+    "question": "Cooling magma is quickly occur in which type of rocks:",
+    "options": ["Volcanic rocks", "Plutonic rocks", "Sedimentary rocks", "Secondary rocks"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 39,
+    "question": "The origin of rocks is called:",
+    "options": ["Petrology", "Petro genesis", "Petrography", "Neosynthesis"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 40,
+    "question": "The second dominant element in the earth crust after oxygen is:",
+    "options": ["O2", "Si", "Mg", "Ca"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 41,
+    "question": "It is a management approach to the cultivation of crops by considering spatially and temporal variation in soils, rainfall and adopting management techniques to reduce cost, efficient use of inputs and reduce environmental pollution:",
+    "options": ["Precision agriculture", "Organic farming", "Sustainable agriculture", "Permaculture"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 42,
+    "question": "The thickness of core is:",
+    "options": ["3500 Km", "2500 Km", "2000 km", "5000 km"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 43,
+    "question": "Movement of nutrients ions along with irrigation water or rainwater is called:",
+    "options": ["Diffusion", "Mass flow", "Contact exchange", "Passive absorption"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 44,
+    "question": "Principal mineral constituent of rock phosphate:",
+    "options": ["Crandallite", "Apatite", "Phlogopite", "Struvite"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 45,
+    "question": "The 'Bangalore method' of composting is characterized by:",
+    "options": ["Initial aerobic phase followed by anaerobic phase", "Continuous aerobic phase", "Initial anaerobic followed by aerobic phase", "Continuous anaerobic phase"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 46,
+    "question": "Which of the following is not a method of measurement of soil moisture?",
+    "options": ["Tensiometer", "Lysimeter", "Gravimetric", "Neutron scattering method"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 47,
+    "question": "At high pH values, the cation exchange capacity of humus on a mass basis is:",
+    "options": ["80-100 C mol (P+)/kg", "100-150 C mol (P+)/kg", "150-300 C mol (P+)/kg", "3-15 C mol (P+)/kg"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 48,
+    "question": "Which of the following compound is most resistant to decomposition:",
+    "options": ["Cellulose", "Hemicelluloses", "Lignin", "Proteins"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 49,
+    "question": "Highly resistant humic substances, insoluble both in alkali and acid are grouped in:",
+    "options": ["Humin", "Humic acid", "Fulvic acid", "Humus"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 50,
+    "question": "Water held between the field capacity (-1/3 bar) and permanent wilting point (-15 bar) is called:",
+    "options": ["Un available water", "Available water", "Hygroscopic water", "Capillary water"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  }
+]
+    },
+    {
+         title: "Soil Science Part-02",
+    
+        testSeriesId: "6a296dfd99dd14ee9f0c7882",
+    
+        durationSeconds: 7200,
+    
+        totalMarks: 100,
+    
+        negativeMarkingEnabled: true,
+    
+        shuffleQuestions: false,
+
+        questions : [
+  {
+    "id": 1,
+    "question": "According to ISSS and USDA the size of clay particle is:",
+    "options": ["<0.002 mm", ">0.002mm", ">0.02 mm", "<0.02 mm"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 2,
+    "question": "When the horizontal dimensions are more develop compare to the vertical but units are thick then the structure is called as:",
+    "options": ["Platy", "Laminar", "Columnar", "Prismatic"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 3,
+    "question": "Bulk density also called:",
+    "options": ["Apparent specific gravity", "True density", "Specific density", "Swell index"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 4,
+    "question": "Organic or peat soil having bulk density:",
+    "options": ["0.5 Mg/m3", "0.2 Mg/m3", "0.1 Mg/m3", "2.5 Mg/m3"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 5,
+    "question": "When water freezes in rocks joints and crevices, it expands 9 percent of its volume, creating a shattering force of about:",
+    "options": ["150 tons per square foot", "140 tons per square foot", "160 tons per square foot", "170 tons per square foot"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 6,
+    "question": "C: N ratio of micro organisms:",
+    "options": ["5:1", "15:1", "10-15:1", "4:1 to 9:1"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 7,
+    "question": "The micronutrient element associated with the biosynthesis of auxins in plants is:",
+    "options": ["Cu", "Zn", "Mo", "Fe"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 8,
+    "question": "The following element plays important role in biological nitrogen fixation:",
+    "options": ["Mo", "N", "Cu", "Ca"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 9,
+    "question": "Downward movement of water through saturated soil is called:",
+    "options": ["Seepage", "Percolation", "Infiltration", "Leaching"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 10,
+    "question": "What is the electrical conductivity of saline soil?",
+    "options": ["Less than 4", "More than 4", "Less than 8.5", "More than 8.5"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 11,
+    "question": "A soil having EC>4dSm, ESP>15% and pH>8.5 is called as:",
+    "options": ["Saline Soil", "Sodic Soil", "Saline Sodic Soil", "Acidic Soil"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 12,
+    "question": "Enzymes which brings about oxidation-reduction reactions in plants act as electron carrier in:",
+    "options": ["S", "B", "Zn", "Cu"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 13,
+    "question": "Urea fertilizer is:",
+    "options": ["Ammonical fertilizer", "Nitrate fertilizer", "Amide fertilizer", "None of the above"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 14,
+    "question": "Which is basic fertilizer?",
+    "options": ["Urea", "Calcium ammonium nitrate", "Ammonium Sulphate", "Sodium nitrate"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 15,
+    "question": "The following element which is responsible for 60 enzyme activation:",
+    "options": ["P", "Mn", "Zn", "K"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 16,
+    "question": "Water quality parameter used to measure total quantity of dissolved salts in water, having units as Deci Siemens per meter:",
+    "options": ["Electric Potential", "Acidity", "Water Tension", "Electrical Conductivity"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 17,
+    "question": "Self-ploughing soils are:",
+    "options": ["Black soils", "Red soils", "Laterite soils", "Alluvial soil"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 18,
+    "question": "Which of the following SAR range is termed as SAR class S1?",
+    "options": ["Less than 10", "19-26", "10-18", "Greater than 26"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 19,
+    "question": "Which is NOT correct about Saline soil?",
+    "options": ["EC of saline soil is more than 4", "ESP of saline soil is less than 15", "In saline soil due to precipitation Salt content increase", "Accumulation of Mg & Ca chloride in saline soil"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 20,
+    "question": "What is the nitrogen content in CAN fertilizer?",
+    "options": ["28", "20.6", "25", "30"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 21,
+    "question": "Citrate Soluble fertilizer but water insoluble fertilizer is:",
+    "options": ["DCP", "MAP", "Rock Phosphate", "DAP"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 22,
+    "question": "Which one of the following is a symbiotic nitrogen fixing bacteria?",
+    "options": ["Rhizobium", "Azotobacter", "Clostridium", "Azospirillium"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 23,
+    "question": "Which is developed due to H+ and Al+3 ions on soils colloids:",
+    "options": ["Active acidity", "Exchangeable/salt replaceable acidity", "Residual acidity", "Total acidity"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 24,
+    "question": "In universal soil loss equation (A=RKLSCP) K denotes?",
+    "options": ["Soil erodibility Factor", "Slope gradient", "Soil Erosivity", "Soil Cover"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 25,
+    "question": "Deforestation generally decreases:",
+    "options": ["Rainfall", "Erosion", "Evaporation", "Temperature"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 26,
+    "question": "Water erosion follows the sequence?",
+    "options": ["Splash > Rill > Gully > Sheet", "Splash > Sheet > Rill > Gully", "Splash > Gully > Sheet > Rill", "Sheet > Splash > Rill > Gully"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 27,
+    "question": "Eluviation process occur in following horizon of soil profile:",
+    "options": ["B horizon", "E or A2 horizon", "C horizon", "A – horizon"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 28,
+    "question": "The density of whole earth is:",
+    "options": ["5.5 g/cm3", "4.5 g/cm3", "6.5 g/cm3", "8.5 g/cm3"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 29,
+    "question": "After application of urea to soil which undergoes hydrolysis to produce unstable compound called:",
+    "options": ["Ammonium hydroxide", "Ammonium bicarbonate", "Ammonium carbamate", "Anhydrous ammonia"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 30,
+    "question": "Earthy odour of soil occur by actinomycetes due to secretion of:",
+    "options": ["Flavonoids", "Carbohydrates", "Geosmin", "Terpenes"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 31,
+    "question": "Fungi dominant in:",
+    "options": ["Acidic soil", "Neutral soil", "Alkaline soil", "Calcareous soil"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 32,
+    "question": "Splitting of water molecule into H+ and OH- ions is called:",
+    "options": ["Hydration", "Hydrolysis", "Carbonation", "Oxidation"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 33,
+    "question": "Hematite gives limonite under the following process of chemical weathering:",
+    "options": ["Hydrolysis", "Hydration", "Solution", "Oxidation"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 34,
+    "question": "Podsolization also called:",
+    "options": ["Acid hydrolysis", "Alkali hydrolysis", "Rock hydrolysis", "Humification"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 35,
+    "question": "Father of Indian soil science is:",
+    "options": ["Leather", "Dokuchaev", "Jenny", "Matson"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 36,
+    "question": "Potassium is determined with the help of:",
+    "options": ["AAS", "ICP", "Flame photometer", "Spectrophotometer"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 37,
+    "question": "Bray No 1 reagent for estimation of available phosphorus mostly used in soil having pH:",
+    "options": [">5.5", "<5.5", ">6.5", "<3.5"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 38,
+    "question": "Lime requirement calculated by following method:",
+    "options": ["Schoonover method", "Lindsay method", "Shoemaker et al", "Norvell method"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 39,
+    "question": "Which microorganism is responsible for nitrification or nitrite to nitrate?",
+    "options": ["Nitrosomonas", "Nitrobacter", "Clostridium", "Nitrosococcus"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 40,
+    "question": "Which nutrients stimulates flowering and aids in seed form?",
+    "options": ["Phosphorus", "Potassium", "Ca and mg", "Sulphate"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 41,
+    "question": "A good supply of ______ helps in counteracting the bad effect of poor aeration.",
+    "options": ["Fe", "Mn", "Zn", "Cu"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 42,
+    "question": "Based on the functional basis, which of the following elements are classified as main structure elements?",
+    "options": ["C, H, O", "N, P, S", "K, Ca, Mg", "Ca, Mg and Fe"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 43,
+    "question": "Single superphosphate is produced by the reaction of:",
+    "options": ["Rock phosphate with sulphuric acid", "Rock Phosphate with hydrochloric acid", "Rock Phosphate with phosphoric acid", "Phosphoric acid with sulphuric acid"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 44,
+    "question": "In neutron probe method for moisture estimation neutron source is:",
+    "options": ["Americium", "Beryllium", "Both a and b", "BF3"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 45,
+    "question": "Amongst oil cakes, the highest nitrogen content is in:",
+    "options": ["Castor cake", "Neem cake", "Coconut cake", "Groundnut cake"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 46,
+    "question": "Of the following which one is an important component of urease enzyme?",
+    "options": ["Co", "Mo", "Fe", "Ni"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 47,
+    "question": "Little leaf of cotton is due to the:",
+    "options": ["Deficiency of Zn", "Toxicity of Zn", "Deficiency of Cu", "Toxicity of Cu"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 48,
+    "question": "Dominant soils in India:",
+    "options": ["Red", "Laterite", "Black", "Alluvial"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 49,
+    "question": "In munsell colour chart chroma denotes:",
+    "options": ["Dominant spectral colour", "Brightness/lightness/darkness of colour", "Purity of colour", "Strength of colour"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 50,
+    "question": "Liquid bio fertilizers are more attractive than solid inoculants, their shelf life is:",
+    "options": ["6-12 month", "18-24 month", "36-48 month", "3-6 month"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  }
+    ]
+    },
+    {
+       title: "Soil Science Part-03",
+    
+        testSeriesId: "6a296dfd99dd14ee9f0c7882",
+    
+        durationSeconds: 7200,
+    
+        totalMarks: 100,
+    
+        negativeMarkingEnabled: true,
+    
+        shuffleQuestions: false,
+
+        questions : [
+  {
+    "id": 1,
+    "question": "Liquid bio fertilizers are more attractive than solid inoculants, their shelf life is:",
+    "options": ["6-12 month", "18-24 month", "36-48 month", "3-6 month"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 2,
+    "question": "'cfu' is a unit for measuring:",
+    "options": ["Soil pollution", "Soil quantity", "Metal contamination", "Microbial population"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 3,
+    "question": "Black colour of vertisol is due to the presence of:",
+    "options": ["Magnesium", "Titanium oxide", "Selenium", "Montmorillonite clay"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 4,
+    "question": "Bradyrhizobium is suitable for:",
+    "options": ["Groundnut", "Soybean", "Cowpea", "Alfalfa"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 5,
+    "question": "Concept of leaching requirement was developed by:",
+    "options": ["W.R. Gardner", "D. kirkham", "L.D Baver", "L.A. Richards"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 6,
+    "question": "Upper 5 Km Sedimentary rocks percentage is:",
+    "options": ["18%", "74%", "8%", "50%"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 7,
+    "question": "The carbon dioxide percentage in soil air is:",
+    "options": ["0.03%", "0.3%", "3%", "0.003%"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 8,
+    "question": "Average particle diameter of sand:",
+    "options": ["2 – 0.07 mm", "2 – 0.02 mm", "2 – 0.05 mm", "2 – 0.08 mm"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 9,
+    "question": "The term remote sensing first used by:",
+    "options": ["Tomilnson", "Parker", "Evelyn L.Pruitt", "Marshall"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 10,
+    "question": "GPS is constellation of:",
+    "options": ["12 satellites", "24 satellites", "48 satellites", "10 satellites"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 11,
+    "question": "Soils of these textured class have minimum water holding capacity:",
+    "options": ["Sandy soil", "Clay soil", "Loam soil", "Clay loam soil"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 12,
+    "question": "Due to high content of nitrates in drinking water cause:",
+    "options": ["Blue baby syndrome", "Minimata", "Itai-Itai", "Grass tetany"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 13,
+    "question": "The law used in mechanical analysis:",
+    "options": ["Charle's law", "Poisoulle s law", "Stoke' s law", "Fick's law"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 14,
+    "question": "In acid soil availability of the nutrient is quite low:",
+    "options": ["Fe", "Mn", "Zn", "Mo"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 15,
+    "question": "What is the critical limit of ODR:",
+    "options": ["20x10-8 g/cm2/min", "20x10-2 g/cm2/min", "20x10-6 g/cm2/min", "20x10-7 g/cm2/min"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 16,
+    "question": "Study of earth crust is called:",
+    "options": ["Geology", "Pedology", "Petrology", "Edaphology"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 17,
+    "question": "In land capability classification land suitable for crop cultivation:",
+    "options": ["Class I to IV", "Class I to VI", "Class V to VIII", "Class I to VI"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 18,
+    "question": "Bemmelen factor is:",
+    "options": ["1.754", "1.724", "1.342", "1.524"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 19,
+    "question": "pF value for hygroscopic coefficient is:",
+    "options": ["2.53", "4.18", "4.50", "6"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 20,
+    "question": "Pink color of nodules is due to:",
+    "options": ["Rhizobium", "Mo", "Fe", "Leghaemoglobin"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 21,
+    "question": "Which element is the structural part of chlorophyll?",
+    "options": ["Mg", "Fe", "Mn", "Cl"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 22,
+    "question": "The most abundant mineral in earth crust:",
+    "options": ["Feldspar", "Quartz", "Mica", "Calcite"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 23,
+    "question": "Soil water potential is measured by:",
+    "options": ["Psychrometer", "Lysimeter", "Infiltrometer", "Hygrometer"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 24,
+    "question": "The unit of cation exchange capacity is:",
+    "options": ["cmol(p+)/kg", "mg/kg", "g/cc", "dS/m"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 25,
+    "question": "Phosphorus is essential for:",
+    "options": ["Root growth", "Photosynthesis", "Chlorophyll synthesis", "Stomatal opening"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 26,
+    "question": "Which element is required for sugar translocation?",
+    "options": ["Boron", "Potassium", "Chlorine", "Manganese"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 27,
+    "question": "The soil horizon which contains maximum humus:",
+    "options": ["O-horizon", "A-horizon", "B-horizon", "C-horizon"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 28,
+    "question": "Most of the nitrogen in soil is present in:",
+    "options": ["Inorganic form", "Organic form", "Gaseous form", "None"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 29,
+    "question": "Cation exchange capacity increases with:",
+    "options": ["Decrease in pH", "Increase in pH", "Neutral pH", "None"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 30,
+    "question": "The most common method of fertilizer application for field crops:",
+    "options": ["Broadcasting", "Placement", "Fertigation", "Foliar"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 31,
+    "question": "Soil texture is:",
+    "options": ["Dynamic", "Static", "Changeable", "None"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 32,
+    "question": "Which of the following is a primary nutrient?",
+    "options": ["Calcium", "Sulphur", "Phosphorus", "Magnesium"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 33,
+    "question": "The process of formation of soil from parent material is called:",
+    "options": ["Pedogenesis", "Weathering", "Leaching", "Translocation"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 34,
+    "question": "Which nutrient is responsible for stomatal opening and closing?",
+    "options": ["Nitrogen", "Phosphorus", "Potassium", "Calcium"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 35,
+    "question": "What is the pH range of neutral soil?",
+    "options": ["6.5-7.5", "5.5-6.5", "7.5-8.5", "<5.5"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 36,
+    "question": "The percentage of Pore space in Sandy soil:",
+    "options": ["40%", "47%", "50%", "58%"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 37,
+    "question": "Which is the highest essential element required by plants?",
+    "options": ["Carbon", "Nitrogen", "Phosphorus", "Potassium"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 38,
+    "question": "Which soil is suitable for rice cultivation?",
+    "options": ["Sandy", "Clay", "Loam", "Silt"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 39,
+    "question": "The process of loss of nitrogen in gaseous form is:",
+    "options": ["Denitrification", "Volatilization", "Nitrification", "Immobilization"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 40,
+    "question": "Which of the following is a micro nutrient?",
+    "options": ["N", "P", "K", "Zn"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 41,
+    "question": "The term 'Pedology' is derived from which language?",
+    "options": ["Latin", "Greek", "English", "Arabic"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 42,
+    "question": "The dominant clay mineral in Black soil:",
+    "options": ["Kaolinite", "Montmorillonite", "Illite", "Vermiculite"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 43,
+    "question": "Soil bulk density is normally:",
+    "options": ["1.33 g/cm3", "2.65 g/cm3", "1.0 g/cm3", "2.0 g/cm3"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 44,
+    "question": "Available Phosphorus in soil is determined by:",
+    "options": ["Olsen's method", "Walkley-Black", "Kjeldahl", "Flame photometer"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 45,
+    "question": "Which process is responsible for the formation of salt-affected soils?",
+    "options": ["Salinization", "Leaching", "Podzolization", "Laterization"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 46,
+    "question": "Organic carbon in soil is determined by:",
+    "options": ["Wet digestion", "Dry ashing", "Kjeldahl method", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 47,
+    "question": "Which nutrient deficiency causes yellowing of older leaves?",
+    "options": ["Nitrogen", "Iron", "Boron", "Calcium"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 48,
+    "question": "Maximum nitrogen fixing bacteria in soil:",
+    "options": ["Rhizobium", "Azotobacter", "Clostridium", "Blue-green algae"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 49,
+    "question": "Which soil is known as 'black cotton soil'?",
+    "options": ["Vertisol", "Entisol", "Alfisol", "Ultisol"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 50,
+    "question": "The pH of saline soil is:",
+    "options": ["< 8.5", "> 8.5", "7.0", "5.5"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  }
+]
+    },
+    {
+       title: "Soil Science Part-04",
+    
+        testSeriesId: "6a296dfd99dd14ee9f0c7882",
+    
+        durationSeconds: 7200,
+    
+        totalMarks: 100,
+    
+        negativeMarkingEnabled: true,
+    
+        shuffleQuestions: false,
+
+        questions : [
+  {
+    "id": 1,
+    "question": "Which fertilizer is mostly used in India?",
+    "options": ["Urea", "DAP", "SSP", "MOP"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 2,
+    "question": "The process of formation of soil from rocks:",
+    "options": ["Pedogenesis", "Weathering", "Denudation", "Erosion"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 3,
+    "question": "Which soil has high water retention?",
+    "options": ["Sand", "Silt", "Clay", "Loam"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 4,
+    "question": "What is the value of ESP for sodic soil?",
+    "options": ["> 15", "< 15", "= 15", "> 20"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 5,
+    "question": "What is the SAR value for Sodic soil?",
+    "options": ["> 13", "< 13", "= 13", "> 15"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 6,
+    "question": "C:N ratio of legumes is:",
+    "options": ["20-30:1", "100:1", "400:1", "10:1"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 7,
+    "question": "In 1:1 type clay mineral, the ratio of silica to alumina is:",
+    "options": ["1:1", "2:1", "2:2", "1:2"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 8,
+    "question": "Which nutrient is involved in chlorophyll formation?",
+    "options": ["Mg", "Fe", "Zn", "Cu"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 9,
+    "question": "The element required for the activation of nitrate reductase enzyme:",
+    "options": ["Mo", "Fe", "Cu", "Zn"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 10,
+    "question": "Which gas is predominant in soil air?",
+    "options": ["N2", "O2", "CO2", "Argon"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 11,
+    "question": "Which of the following is a mobile nutrient?",
+    "options": ["Nitrogen", "Calcium", "Boron", "Iron"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 12,
+    "question": "The process of removal of basic cations from the soil:",
+    "options": ["Leaching", "Podzolization", "Salinization", "Laterization"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 13,
+    "question": "Which fertilizer has high nitrogen content?",
+    "options": ["Urea", "Ammonium Sulphate", "Calcium Ammonium Nitrate", "Sodium Nitrate"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 14,
+    "question": "The term 'soil' is derived from:",
+    "options": ["Latin word 'Solum'", "Greek word 'Pedon'", "English word 'Soil'", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 15,
+    "question": "What is the bulk density of sandy soil?",
+    "options": ["1.6 g/cm3", "1.4 g/cm3", "1.3 g/cm3", "1.1 g/cm3"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 16,
+    "question": "The major constituent of the earth's crust is:",
+    "options": ["Oxygen", "Silicon", "Aluminum", "Iron"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 17,
+    "question": "Essential nutrients are how many?",
+    "options": ["16", "17", "18", "19"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 18,
+    "question": "Which of the following is a beneficial element?",
+    "options": ["Cobalt", "Nitrogen", "Phosphorus", "Potassium"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 19,
+    "question": "Phosphorous deficiency symptoms:",
+    "options": ["Purple color", "Yellowing", "Necrosis", "Chlorosis"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 20,
+    "question": "What is the pH of alkaline soil?",
+    "options": ["> 8.5", "< 8.5", "7.0", "5.0"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 21,
+    "question": "Which is not a secondary nutrient?",
+    "options": ["Calcium", "Magnesium", "Sulphur", "Nitrogen"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 22,
+    "question": "The method to determine soil moisture in situ is:",
+    "options": ["Neutron moisture meter", "Oven drying", "Gravimetric", "All of these"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 23,
+    "question": "Which soil has high CEC?",
+    "options": ["Sandy", "Clay", "Loam", "Silt"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 24,
+    "question": "Soil colour is measured by:",
+    "options": ["Munsell colour chart", "pH meter", "Spectrophotometer", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 25,
+    "question": "In soil classification, what is the order for Black soil?",
+    "options": ["Vertisol", "Mollisol", "Histosol", "Alfisol"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 26,
+    "question": "The micronutrient deficiency which causes 'Little Leaf' in plants:",
+    "options": ["Zn", "Cu", "Mn", "Fe"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 27,
+    "question": "What is the standard temperature for measuring pH of soil?",
+    "options": ["25°C", "30°C", "20°C", "35°C"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 28,
+    "question": "Nutrient uptake by plants takes place by:",
+    "options": ["Diffusion", "Mass flow", "Root interception", "All of these"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 29,
+    "question": "What is the C:N ratio of arable soil?",
+    "options": ["5:1 to 15:1", "20:1", "100:1", "4:1"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 30,
+    "question": "The most common form of Nitrogen absorbed by plants:",
+    "options": ["Nitrate", "Ammonium", "Urea", "Amino acids"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 31,
+    "question": "The process of transformation of Ammonium to Nitrate:",
+    "options": ["Nitrification", "Denitrification", "Mineralization", "Immobilization"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 32,
+    "question": "Which fertilizer should not be used in acid soil?",
+    "options": ["Ammonium Sulphate", "Calcium Ammonium Nitrate", "Lime", "Basic Slag"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 33,
+    "question": "Which of the following is not a micronutrient?",
+    "options": ["Iron", "Manganese", "Zinc", "Potassium"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 34,
+    "question": "The percentage of Pore space in Clay soil:",
+    "options": ["40%", "47%", "50%", "58%"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 35,
+    "question": "What is the source of Phosphorus in soil?",
+    "options": ["Apatite", "Gypsum", "Pyrite", "Borax"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 36,
+    "question": "What is the function of Potassium in plants?",
+    "options": ["Enzyme activation", "Photosynthesis", "Cell division", "All of these"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 37,
+    "question": "The soil with high CEC has:",
+    "options": ["High clay content", "High organic matter", "Both a and b", "None"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 38,
+    "question": "Which soil is known for self-ploughing property?",
+    "options": ["Black soil", "Red soil", "Sandy soil", "Laterite soil"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 39,
+    "question": "The most limiting factor for plant growth in arid regions:",
+    "options": ["Water", "Nitrogen", "Phosphorus", "Light"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 40,
+    "question": "What is the main component of soil?",
+    "options": ["Mineral matter", "Organic matter", "Water", "Air"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 41,
+    "question": "Which of the following is a nitrogen fixing bacteria?",
+    "options": ["Rhizobium", "Azotobacter", "Clostridium", "All of these"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 42,
+    "question": "Cation exchange capacity is the ability of soil to:",
+    "options": ["Hold nutrients", "Exchange nutrients", "Both", "None"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 43,
+    "question": "Which soil type is rich in organic matter?",
+    "options": ["Histosol", "Vertisol", "Entisol", "Aridisol"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 44,
+    "question": "The most common type of weathering in hot deserts:",
+    "options": ["Physical weathering", "Chemical weathering", "Biological weathering", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 45,
+    "question": "What is the percentage of Oxygen in earth crust?",
+    "options": ["46.6%", "27.7%", "8.1%", "5.0%"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 46,
+    "question": "Soil colour 'Red' indicates the presence of:",
+    "options": ["Iron", "Manganese", "Organic matter", "Silica"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 47,
+    "question": "The process of converting soil into a compact mass:",
+    "options": ["Compaction", "Consolidation", "Both", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 48,
+    "question": "Which of the following element is non-mineral?",
+    "options": ["Carbon", "Nitrogen", "Calcium", "Magnesium"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 49,
+    "question": "Which nutrient is responsible for the formation of seeds and fruits?",
+    "options": ["Phosphorus", "Nitrogen", "Potassium", "Boron"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 50,
+    "question": "What is the pH of acidic soil?",
+    "options": ["< 6.5", "> 7.5", "7.0", "8.5"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 51,
+    "question": "The C:N ratio of humus is:",
+    "options": ["4:1 to 9:1", "10:1", "12:1", "100:1"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 52,
+    "question": "The C:N ratio of normal soils is:",
+    "options": ["10:1", "20:1 to 30:1", "12:1", "100:1"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 53,
+    "question": "The typical C:N ratio range for legumes is:",
+    "options": ["4:1 to 9:1", "10:1", "20:1 to 30:1", "100:1"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 54,
+    "question": "Which of the following has the lowest C:N ratio?",
+    "options": ["Crop straw", "FYM", "Legumes", "Microorganisms"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 55,
+    "question": "Which material has a C:N ratio of approximately 100:1?",
+    "options": ["Humus", "Normal soil", "FYM", "Crop straw"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  }
+      ]
+    },
+    {
+      title: "Plant Pathology",
+    
+        testSeriesId: "6a296dfd99dd14ee9f0c7882",
+    
+        durationSeconds: 7200,
+    
+        totalMarks: 120,
+    
+        negativeMarkingEnabled: true,
+    
+        shuffleQuestions: false,
+
+        questions : [
+  {
+    "id": 1,
+    "question": "Stag Head is associated with:",
+    "options": ["Covered smut of barley", "White rust of mustard", "Club root of mustard", "Karnal bunt of wheat"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 2,
+    "question": "Early blight of tomato is caused by:",
+    "options": ["Alternaria brassicae", "Alternaria tenuis", "Alternaria solani", "Alternaria raphani"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 3,
+    "question": "The antheridia of Phytophthora infestance are:",
+    "options": ["Paragynous type", "Amphigynous type", "Both types", "None of the above"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 4,
+    "question": "Autoecious rust is:",
+    "options": ["Black rust of wheat", "Brown rust of wheat", "White rust of mustard", "Linseed rust"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 5,
+    "question": "Which disease of wheat was first reported in India by Mitra (1931):",
+    "options": ["Flag smut", "Loose smut", "Karnal bunt", "Hill bunt"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 6,
+    "question": "Select a non-systemic fungicide:",
+    "options": ["Ridomil MZ-72", "Bavistin", "Dithane M-45", "Vitavax"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 7,
+    "question": "Wheat rust, which is highly susceptible to higher temperature is:",
+    "options": ["Black rust", "Yellow rust", "Brown rust", "None of the above"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 8,
+    "question": "Ustilago scitaminea is a causal agent of:",
+    "options": ["Flag smut of wheat", "Loose smut of wheat", "Whip smut of sugarcane", "Covered smut of barley"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 9,
+    "question": "Favorable temperature for maximum germination of sporangia of Albugo candida is:",
+    "options": ["20-24°C", "12-14°C", "30°C", "4-8°C"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 10,
+    "question": "Potato leaf roll virus is transmitted by:",
+    "options": ["Leaf hopper", "Myzus persicae", "Mites", "Bemisia tabaci"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 11,
+    "question": "Both fungal and bacterial diseases can be controlled effectively by:",
+    "options": ["Mancozeb", "Copper oxychloride", "Tetracycline", "Agrimycin"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 12,
+    "question": "Brown spot of maize is caused by:",
+    "options": ["Helminthosporium maydis", "Peronosclerospora spp", "Physoderma zeae-maydis", "Cephalosporium spp"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 13,
+    "question": "Carbendazim and vitavax are effective in controlling:",
+    "options": ["Rusts", "Downy mildew", "Smuts", "Virus diseases"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 14,
+    "question": "Powdery mildew is not effectively controlled by following fungicide:",
+    "options": ["Sulphur dust", "Ridomil-MZ", "Karathane", "Calixin"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 15,
+    "question": "Total or holo stem parasite is:",
+    "options": ["Striga", "Loranthus", "Orobanche", "Cuscuta"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 16,
+    "question": "Smut of Bajra is caused by:",
+    "options": ["Tolyposporium penicillariae", "Sclerospora graminicola", "Tolyposporium ehrenbergii", "Sphacelotheca reiliana"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 17,
+    "question": "Head smut of sorghum is caused by:",
+    "options": ["Sphacelotheca reiliana", "Tolyposporium ehrenbergii", "Sphacelotheca sorghi", "Sphacelotheca cruenta"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 18,
+    "question": "Yellow vein mosaic of okra is transmitted by:",
+    "options": ["Mechanical method", "Insect", "Nematode", "Mite"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 19,
+    "question": "For best fructification, which edible mushroom prefer 'paddy straw' as a food material:",
+    "options": ["Agaricus spp", "Pleurotus spp", "Volvariella spp", "Polyporus spp"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 20,
+    "question": "Khaira disease of rice is caused by the deficiency of:",
+    "options": ["Iron", "Boron", "Zinc", "Potash"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 21,
+    "question": "Green ear disease of Bajra is primarily:",
+    "options": ["Seed borne", "Air borne", "Soil borne", "None of these"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 22,
+    "question": "Species of striga are:",
+    "options": ["Partial root parasite", "Complete root parasite", "Complete stem parasite", "Partial stem parasite"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 23,
+    "question": "The pathogen of green ear disease of bajra is perpetuate or survive mainly through:",
+    "options": ["Soil", "Seed", "Soil and seed", "Weed"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 24,
+    "question": "Grain smut of sorghum is caused by:",
+    "options": ["Puccinia graminis", "Sphacealotheca sorghi", "Sphacealotheca cruenta", "Tolysporium ehrenbergii"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 25,
+    "question": "Highly poisonous mushroom is:",
+    "options": ["Agaricus bisporus", "Amanita muscaria", "Calocybe indica", "Trichoderma species"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 26,
+    "question": "Electron microscope has a maximum useful magnification in the range of:",
+    "options": ["100-1000X", "1000-2000X", "200000-400000X", "More than 1000000X"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 27,
+    "question": "Azospirillum contributes to plant growth as:",
+    "options": ["N2 fixation", "Organic matter recycling", "Soil structure", "Bulk density"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 28,
+    "question": "Growth of organism can be measured as:",
+    "options": ["Increased cell mass", "Increased cell number", "Increased cell mass and cell number", "None of the above"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 29,
+    "question": "Nostoc is an example of:",
+    "options": ["Algae", "Fungi", "Bacteria", "Virus"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 30,
+    "question": "Albugo candida is:",
+    "options": ["Obligate parasite", "Facultative parasite", "Saprophyte", "Facultative saprophyte"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 31,
+    "question": "Diseases which occur at very irregular intervals and location, and in relatively few instances, are called:",
+    "options": ["Epidemic", "Pandemic", "Sporadic", "Endemic"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 32,
+    "question": "Asexually produced spores, bearing flagella are called:",
+    "options": ["Zygospore", "Zoospore", "Zoosporangium", "Conidium"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 33,
+    "question": "Plant disease which is poisonous to human and animals is:",
+    "options": ["Ergot of Bajra", "Karnal bunt of Wheat", "Smut of Sorghum", "Late blight of Potato"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 34,
+    "question": "Name the father of Plant Pathology in India:",
+    "options": ["E.J. Butler", "B.B. Mundker", "K.C. Mehta", "J.F. Dastur"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 35,
+    "question": "Fungi do not have:",
+    "options": ["Chromosome", "Nucleus", "Chloroplast", "Mitochondria"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 36,
+    "question": "True fungi belongs to kingdom:",
+    "options": ["Chromista", "Fungi", "Plantae", "Protista"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 37,
+    "question": "A fruiting structure consisting of cluster of conidiophores woven together on a mass of hyphae is called:",
+    "options": ["Stroma", "Sporodochium", "Basidium", "Ascocarp"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 38,
+    "question": "Fungicide used for the control of Powdery mildew is:",
+    "options": ["Mancozeb", "Apron", "Sulphur", "Thiram"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 39,
+    "question": "Fungus used as bio-control agent, for soil borne diseases is:",
+    "options": ["Trichoderma", "Trichothecium", "Sclerotium", "Alternaria"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 40,
+    "question": "Phytoplasma is susceptible to:",
+    "options": ["Tetracycline", "Penicillin", "P.C.N.B", "Propiconazole"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 41,
+    "question": "The author of book 'Plant Diseases' is:",
+    "options": ["Y.L. Nene", "R.S. Singh", "P.N. Thapliyal", "G.N. Agros"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 42,
+    "question": "Which group of following fungicide is now banned:",
+    "options": ["Sulphur fungicides", "Copper fungicides", "Mercury fungicides", "Benzimidazole"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 43,
+    "question": "Toxic ingredient for fungi in Blitox-50 is:",
+    "options": ["Copper oxychloride", "Copper sulphate", "Copper carbonate", "Cuprous oxide"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 44,
+    "question": "Deep ploughing in summer is done to manage:",
+    "options": ["Soil borne pathogen", "Seed borne pathogen", "Virus diseases", "None of the above"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 45,
+    "question": "The quantity of Antibiotic and water required to prepare 100 ppm solution is:",
+    "options": ["100 mg and 1 litre", "100 mg and 100 ml", "1 mg and 1 litre", "10 mg and 1 litre"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 46,
+    "question": "The best method to control soil borne diseases is use of:",
+    "options": ["Foliar spray", "Sulphur fungicide", "Disease free seed", "Systemic fungicide"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 47,
+    "question": "Fungicide used to control downy mildew diseases is:",
+    "options": ["Carbendazim", "Vitavax", "Metalaxyl", "Captan"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 48,
+    "question": "The famous Irish famine of 1845-46 was largely due to failure of:",
+    "options": ["Potato crop", "Tomato crop", "Grape crop", "Banana crop"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 49,
+    "question": "At what stage of plant growth, the symptoms of loose smut of wheat appear:",
+    "options": ["Maturity stage", "Seedling stage", "Ear emergence stage", "Tillering stage"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 50,
+    "question": "Covered smut of barley is a/an:",
+    "options": ["Air-borne disease", "Soil-borne disease", "Internally seed-borne disease", "Externally seed-borne disease"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 51,
+    "question": "Alternaria blight of mustard is caused by:",
+    "options": ["Alternaria solani", "Alternaria brassicae", "Alternaria tenuis", "Alternaria linicola"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 52,
+    "question": "Potato leaf roll virus is also known as:",
+    "options": ["Phloem necrosis virus", "Xylem necrosis virus", "Bud necrosis virus", "Yellow mosaic virus"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 53,
+    "question": "Loose smut of wheat is a/an:",
+    "options": ["Air-borne disease", "Soil-borne disease", "Externally seed-borne disease", "Internally seed-borne disease"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 54,
+    "question": "Viruses are:",
+    "options": ["Necrotrophs", "Facultative parasite", "Obligate parasite", "None of the above"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 55,
+    "question": "Setae are present in:",
+    "options": ["Fusarium oxysporum", "Colletotrichum falcatum", "Alternaria solani", "Ustilago nuda"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 56,
+    "question": "The heteroecious nature of rust fungi was discovered by:",
+    "options": ["PMA Millardet", "Anton De Bary", "E. J. Butler", "J. G. Horsfall"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 57,
+    "question": "Late blight of potato is caused by:",
+    "options": ["Alternaria", "Peronospora", "Pythium", "Phytophthora"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 58,
+    "question": "Flagellated motile spore is called as:",
+    "options": ["Zygospore", "Zoosporangium", "Zoospore", "Conidium"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 59,
+    "question": "Which fungicide was discovered by PMA Millardet:",
+    "options": ["Burgundy mixture", "Bordeaux mixture", "Blitox - 50", "Copper oxychloride"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 60,
+    "question": "Obligate parasite (s) is/are:",
+    "options": ["Erysiphe", "Puccinia", "Peronospora", "All the above"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  }
+        ]
+    },
+    {
+      title: "Plant Breeding and Genetics",
+    
+        testSeriesId: "6a296dfd99dd14ee9f0c7882",
+    
+        durationSeconds: 7200,
+    
+        totalMarks: 120,
+    
+        negativeMarkingEnabled: true,
+    
+        shuffleQuestions: false,
+
+        questions : [
+  {
+    "id": 1,
+    "question": "Cereals are deficient in which amino acid:",
+    "options": ["Lysine", "Methionine", "Tryptophan", "None of the above"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 2,
+    "question": "Amino acid which is deficient in legumes:",
+    "options": ["Lysine", "Methionine", "Tryptophan", "None of the above"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 3,
+    "question": "The concept of double cross hybrid in maize was proposed by:",
+    "options": ["D.F. Jones, 1920", "N.E. Borlaug", "M.S. Swaminathan", "B.P. Pal"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 4,
+    "question": "First variety of rice introduced in India is:",
+    "options": ["TN-1 (1965)", "Jaya (1968)", "IR-8", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 5,
+    "question": "First indigenous variety of rice in India is:",
+    "options": ["TN-1", "Jaya (1968)", "IR-8", "None"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 6,
+    "question": "The most widely cultivated species of potato is:",
+    "options": ["Solanum tuberosum", "Solanum nigrum", "Solanum indicum", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 7,
+    "question": "A gene for resistance in host corresponding to a gene for avirulence in pathogen is:",
+    "options": ["Gene for gene theory", "Monogenic resistance", "Polygenic resistance", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 8,
+    "question": "The theory of pangenesis was given by:",
+    "options": ["C. Darwin", "J.B. Lamarck", "De Candole", "G.J. Mendel"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 9,
+    "question": "The book 'Systematic and Origin of Species' was written by:",
+    "options": ["C. Darwin", "J.B. Lamarck", "De Candole", "Ernst Mayr"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 10,
+    "question": "Crossing-over among the homologous chromosomes takes place at:",
+    "options": ["Pachytene stage", "Zygotene stage", "Leptotene stage", "Diplotene stage"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 11,
+    "question": "De-Vries first gave the theory of:",
+    "options": ["Mutation", "Evolution", "Selection", "Adaptation"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 12,
+    "question": "Darwin gave the theory of:",
+    "options": ["Mutation", "Evolution or natural selection", "Selection", "Adaptation"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 13,
+    "question": "Region of chromosome with which spindle fibres are attached during metaphase is:",
+    "options": ["Centromere", "Chromatid", "Telomere", "Nucleolus"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 14,
+    "question": "Name of scientist who established chromosome theory of inheritance:",
+    "options": ["Sutton and Boveri", "Mendel", "Darwin", "De-Vries"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 15,
+    "question": "DNA is the genetic material in:",
+    "options": ["Bacteria", "Plants", "Animals", "All of these"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 16,
+    "question": "The nitrogenous base not present in RNA:",
+    "options": ["Adenine", "Guanine", "Cytosine", "Thymine"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 17,
+    "question": "The genetic material in most plant viruses:",
+    "options": ["ss-RNA", "DNA", "Protein", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 18,
+    "question": "The process of protein synthesis takes place at:",
+    "options": ["Nucleus", "Ribosomes", "Mitochondria", "Cytoplasm"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 19,
+    "question": "Mutations are:",
+    "options": ["Heritable changes", "Non-heritable changes", "Environmental changes", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 20,
+    "question": "In Mendelian genetics, a 3:1 ratio is observed in:",
+    "options": ["Monohybrid cross F2 generation", "Dihybrid cross", "Back cross", "Test cross"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 21,
+    "question": "Pure line theory was proposed by:",
+    "options": ["Johannsen", "Mendel", "Darwin", "De-Vries"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 22,
+    "question": "Mass selection is suitable for:",
+    "options": ["Cross-pollinated crops", "Self-pollinated crops", "Both (a) and (b)", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 23,
+    "question": "Clonal selection is practiced in:",
+    "options": ["Potato", "Sugarcane", "Both (a) and (b)", "None"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 24,
+    "question": "Pedigree selection is a method of:",
+    "options": ["Breeding", "Entomology", "Pathology", "Agronomy"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 25,
+    "question": "Heterosis is:",
+    "options": ["Hybrid vigour", "Inbreeding depression", "Mutation", "Polyploidy"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 26,
+    "question": "Which of the following is an example of aneuploidy:",
+    "options": ["Nullisomy", "Monosomy", "Trisomy", "All of these"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 27,
+    "question": "Polyploidy involves:",
+    "options": ["Increase in number of chromosomes", "Decrease in number", "No change", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 28,
+    "question": "Which crop is known as man-made cereal:",
+    "options": ["Triticale", "Wheat", "Maize", "Barley"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 29,
+    "question": "A test cross is used to:",
+    "options": ["Determine genotype", "Determine phenotype", "Induce mutation", "Increase yield"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 30,
+    "question": "The term 'Genetics' was coined by:",
+    "options": ["W. Bateson", "Mendel", "Morgan", "Johannsen"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 31,
+    "question": "An organism with two identical alleles for a character is:",
+    "options": ["Homozygous", "Heterozygous", "Hybrid", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 32,
+    "question": "The phenotypic ratio of a dihybrid cross in F2 generation is:",
+    "options": ["9:3:3:1", "3:1", "1:2:1", "1:1"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 33,
+    "question": "Linkage groups in an organism are equal to:",
+    "options": ["Haploid chromosome number", "Diploid chromosome number", "1/2 of diploid", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 34,
+    "question": "Sex-linked inheritance was first discovered by:",
+    "options": ["Morgan", "Mendel", "Sutton", "Bateson"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 35,
+    "question": "The unit of mutation is:",
+    "options": ["Muton", "Recon", "Cistron", "Codon"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 36,
+    "question": "The functional unit of inheritance is:",
+    "options": ["Gene", "Chromosome", "Nucleus", "Ribosome"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 37,
+    "question": "Self-pollinated crops are:",
+    "options": ["Wheat, rice, peas", "Maize, bajra, rye", "Sunflower, carrot", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 38,
+    "question": "Cross-pollinated crops are:",
+    "options": ["Maize, bajra", "Wheat, rice", "Pea, lentil", "Soybean"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 39,
+    "question": "Heterosis was coined by:",
+    "options": ["Shull", "Mendel", "Darwin", "Morgan"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 40,
+    "question": "Inbreeding depression is more common in:",
+    "options": ["Cross-pollinated crops", "Self-pollinated crops", "Both", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 41,
+    "question": "Which method is best for improving yield in cross-pollinated crops:",
+    "options": ["Mass selection", "Pure line selection", "Backcross", "Pedigree"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 42,
+    "question": "A backcross is a cross between:",
+    "options": ["F1 hybrid and one of the parents", "F1 and F1", "Two parents", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 43,
+    "question": "Which is used to break self-incompatibility:",
+    "options": ["Bud pollination", "Heat treatment", "Both", "None"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 44,
+    "question": "The germplasm bank is also known as:",
+    "options": ["Gene bank", "Seed bank", "Both", "None"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 45,
+    "question": "In DNA, adenine always pairs with:",
+    "options": ["Thymine", "Guanine", "Cytosine", "Uracil"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 46,
+    "question": "The structural unit of DNA is:",
+    "options": ["Nucleotide", "Nucleoside", "Amino acid", "Protein"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 47,
+    "question": "Which element is present in all proteins but not in fats and carbohydrates:",
+    "options": ["Nitrogen", "Carbon", "Oxygen", "Hydrogen"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 48,
+    "question": "In genetic mapping, the unit of distance is:",
+    "options": ["Centimorgan (cM)", "Millimeter", "Micron", "Angstrom"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 49,
+    "question": "Cytoplasmic inheritance is determined by:",
+    "options": ["Mitochondria and chloroplasts", "Nucleus", "Ribosomes", "Golgi bodies"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 50,
+    "question": "Apomixis is:",
+    "options": ["Sexual reproduction", "Asexual reproduction", "Budding", "Regeneration"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 51,
+    "question": "Parthenocarpy is the development of fruit:",
+    "options": ["Without fertilization", "With fertilization", "By mutation", "By polyploidy"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 52,
+    "question": "Which of the following is a male sterile line:",
+    "options": ["A-line", "B-line", "R-line", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 53,
+    "question": "The maintenance of A-line is done by:",
+    "options": ["A-line", "B-line", "R-line", "None"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 54,
+    "question": "The restoration of fertility in male sterile line is done by:",
+    "options": ["A-line", "B-line", "R-line", "None"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 55,
+    "question": "The most common type of linkage is:",
+    "options": ["Complete linkage", "Incomplete linkage", "No linkage", "None"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 56,
+    "question": "The site of protein synthesis is:",
+    "options": ["Nucleus", "Ribosomes", "Cytoplasm", "Lysosome"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 57,
+    "question": "Genetic code consists of:",
+    "options": ["64 codons", "20 codons", "16 codons", "32 codons"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 58,
+    "question": "The first step of protein synthesis is:",
+    "options": ["Transcription", "Translation", "Activation of amino acids", "Termination"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 59,
+    "question": "Which is the initiation codon:",
+    "options": ["AUG", "UAA", "UAG", "UGA"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 60,
+    "question": "Breeding for disease resistance is:",
+    "options": ["Important", "Not important", "Very easy", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  }
+]
+    },
+    {
+      title: "Extension Education",
+    
+        testSeriesId: "6a296dfd99dd14ee9f0c7882",
+    
+        durationSeconds: 7200,
+    
+        totalMarks: 120,
+    
+        negativeMarkingEnabled: true,
+    
+        shuffleQuestions: false,
+
+        questions : [
+  {
+    "id": 1,
+    "question": "The term 'Extension' was first used in:",
+    "options": ["USA", "UK", "India", "Germany"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 2,
+    "question": "Father of Extension in the world:",
+    "options": ["James Stuart", "Seaman A. Knapp", "M.S. Swaminathan", "B.P. Pal"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 3,
+    "question": "Father of Extension in USA:",
+    "options": ["Seaman A. Knapp", "James Stuart", "Leagens", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 4,
+    "question": "Extension education is a:",
+    "options": ["Applied science", "Basic science", "Pure science", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 5,
+    "question": "Extension education is:",
+    "options": ["Informal education", "Formal education", "Non-formal education", "None"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 6,
+    "question": "The philosophy of extension education is:",
+    "options": ["Helping people to help themselves", "Teaching them", "Forcing them", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 7,
+    "question": "'Extension' word is derived from:",
+    "options": ["Latin", "Greek", "English", "Arabic"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 8,
+    "question": "The aim of extension education is:",
+    "options": ["Change in behaviour", "Increase in yield", "Increase in wealth", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 9,
+    "question": "'Farmer's first' concept was given by:",
+    "options": ["Robert Chamber", "M.S. Swaminathan", "Leagens", "Indira Gandhi"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 10,
+    "question": "The three components of extension are:",
+    "options": ["Research, Teaching, Extension", "Research, Teaching, Evaluation", "Training, Extension, Research", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 11,
+    "question": "Which is the basic unit of extension:",
+    "options": ["Individual", "Village", "Block", "District"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 12,
+    "question": "Demonstrations are:",
+    "options": ["Learning by doing", "Seeing is believing", "Both", "None"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 13,
+    "question": "Result demonstration is for:",
+    "options": ["Proving a new practice", "Teaching a skill", "Both", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 14,
+    "question": "Method demonstration is for:",
+    "options": ["Teaching a skill", "Proving a new practice", "Both", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 15,
+    "question": "Which is a group contact method:",
+    "options": ["Demonstration", "Farm visit", "Telephone call", "Radio"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 16,
+    "question": "Which is a mass contact method:",
+    "options": ["Radio", "Farm visit", "Meeting", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 17,
+    "question": "The first Krishi Vigyan Kendra (KVK) was established at:",
+    "options": ["Pondicherry", "Delhi", "Kanpur", "Ludhiana"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 18,
+    "question": "KVK is also known as:",
+    "options": ["Farm Science Centre", "Research Centre", "Training Centre", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 19,
+    "question": "First KVK was established in the year:",
+    "options": ["1974", "1980", "1990", "1966"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 20,
+    "question": "The primary function of KVK is:",
+    "options": ["Vocational training", "Basic research", "Seed production", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 21,
+    "question": "Lab to Land program was started in:",
+    "options": ["1979", "1960", "1985", "1990"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 22,
+    "question": "IRDP stands for:",
+    "options": ["Integrated Rural Development Programme", "Intensive Rural Development Program", "International Rural Development Program", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 23,
+    "question": "IRDP was launched in:",
+    "options": ["1978-79", "1970", "1985", "1995"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 24,
+    "question": "ATMA stands for:",
+    "options": ["Agricultural Technology Management Agency", "Agricultural Training Management Agency", "Agricultural Technology Marketing Agency", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 25,
+    "question": "Transfer of Technology (TOT) project was launched in:",
+    "options": ["1974", "1980", "1965", "1990"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 26,
+    "question": "NAIP stands for:",
+    "options": ["National Agricultural Innovation Project", "National Agricultural Intensive Project", "National Agricultural Integration Project", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 27,
+    "question": "The most effective method for rural people:",
+    "options": ["Demonstration", "Lecture", "Pamphlet", "Radio"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 28,
+    "question": "Evaluation means:",
+    "options": ["Measuring success", "Identifying failure", "Both", "None"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 29,
+    "question": "Extension approach is:",
+    "options": ["Bottom-up", "Top-down", "Linear", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 30,
+    "question": "The process of adoption of innovation goes through:",
+    "options": ["Awareness-Interest-Evaluation-Trial-Adoption", "Trial-Adoption-Interest-Evaluation", "Evaluation-Trial-Adoption", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 31,
+    "question": "The communication process involves:",
+    "options": ["Communicator-Message-Channel-Receiver", "Message-Receiver-Communicator", "Channel-Message-Communicator", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 32,
+    "question": "Noise in communication means:",
+    "options": ["Disturbance", "Sound", "Clarity", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 33,
+    "question": "Feedback is:",
+    "options": ["Essential in communication", "Not necessary", "Secondary", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 34,
+    "question": "The main barrier in communication in rural areas is:",
+    "options": ["Language", "Lack of interest", "Lack of resources", "All of these"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 35,
+    "question": "The purpose of extension is to bring about:",
+    "options": ["Desirable changes in human behaviour", "Only production changes", "Only economic changes", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 36,
+    "question": "Audio-Visual aids are used to:",
+    "options": ["Make learning easier", "Increase cost", "Reduce time", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 37,
+    "question": "Radio is a:",
+    "options": ["Audio aid", "Visual aid", "Audio-visual aid", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 38,
+    "question": "Television is a:",
+    "options": ["Audio-visual aid", "Audio aid", "Visual aid", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 39,
+    "question": "Posters are:",
+    "options": ["Visual aids", "Audio aids", "Audio-visual aids", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 40,
+    "question": "Training and Visit (T&V) system was introduced by:",
+    "options": ["Daniel Benor", "Leagens", "Knapp", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 41,
+    "question": "T&V system was introduced in India in:",
+    "options": ["1974", "1980", "1990", "1966"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 42,
+    "question": "Frontline demonstration (FLD) is conducted by:",
+    "options": ["KVKs", "ICAR", "State Dept", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 43,
+    "question": "The aim of FLD is to demonstrate:",
+    "options": ["New technology", "Old technology", "Both", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 44,
+    "question": "The leader who is chosen by people:",
+    "options": ["Formal leader", "Informal leader", "Official", "None"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 45,
+    "question": "The leader appointed by an agency:",
+    "options": ["Formal leader", "Informal leader", "Natural leader", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 46,
+    "question": "Evaluation of extension program is:",
+    "options": ["Continuous", "Periodic", "One time", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 47,
+    "question": "The term 'Andragogy' means:",
+    "options": ["Art and science of teaching adults", "Teaching children", "Teaching animals", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 48,
+    "question": "The term 'Pedagogy' means:",
+    "options": ["Art of teaching children", "Art of teaching adults", "Both", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 49,
+    "question": "Leadership is:",
+    "options": ["The ability to influence others", "Commanding people", "Forcing", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 50,
+    "question": "Extension education is:",
+    "options": ["Out of school education", "In school education", "Both", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 51,
+    "question": "Change agent is:",
+    "options": ["An extension worker", "A farmer", "A researcher", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 52,
+    "question": "The goal of extension is:",
+    "options": ["Improving the quality of life", "Only production", "Only profit", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 53,
+    "question": "The feedback loop improves:",
+    "options": ["Communication", "Production", "Selling", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 54,
+    "question": "Who is a target audience in extension:",
+    "options": ["Farmers", "Researchers", "Traders", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 55,
+    "question": "Self-help group (SHG) concept is based on:",
+    "options": ["Collective action", "Individual action", "Government action", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 56,
+    "question": "The main objective of extension is:",
+    "options": ["Education of farmers", "Providing credit", "Providing inputs", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 57,
+    "question": "Participatory Rural Appraisal (PRA) is:",
+    "options": ["A method to understand rural reality", "Research", "Teaching", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 58,
+    "question": "Role of an extension worker:",
+    "options": ["Advisor", "Leader", "Facilitator", "All of these"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 59,
+    "question": "Extension education process is:",
+    "options": ["Continuous", "Discrete", "Irregular", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 60,
+    "question": "Extension work in India is the responsibility of:",
+    "options": ["State and Central governments", "Farmers only", "NGO only", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  }
+        ]
+    },
+    {
+      title: "Entomology ",
+    
+        testSeriesId: "6a296dfd99dd14ee9f0c7882",
+    
+        durationSeconds: 7200,
+    
+        totalMarks: 120,
+    
+        negativeMarkingEnabled: true,
+    
+        shuffleQuestions: false,
+
+        questions : [
+  {
+    "id": 1,
+    "question": "Most effective insecticide for termite control is:",
+    "options": ["Malathion", "Phosphomidon", "Methy demeton", "Chlorpyriphos"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 2,
+    "question": "Pheromones are employed for which activities of insects:",
+    "options": ["Mass trapping", "Monitoring", "Mating disruption", "All the above"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 3,
+    "question": "Directorate of Plant Protection, Quarantine and Storage is situated at:",
+    "options": ["Faridkot", "Faridabad", "Farrukhabad", "New Delhi"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 4,
+    "question": "White grub adults fly from the soil to the tree between:",
+    "options": ["6 to 8 a.m", "4 to 6 p.m", "6 to 8 p.m", "8 to 10 p.m"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 5,
+    "question": "Crushing and grinding method of control comes under:",
+    "options": ["Cultural control", "Mechanical method", "Physical method", "Biological control"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 6,
+    "question": "Growing resistant varieties comes under which method of pest control:",
+    "options": ["Cultural control", "Mechanical method", "Physical method", "Biological control"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 7,
+    "question": "Manipulation of temperature and humidity and use of radiation are which type of management practice:",
+    "options": ["Cultural control", "Mechanical method", "Physical method", "Genetic control"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 8,
+    "question": "Yellow sticky traps are used to control:",
+    "options": ["Mango mealy bug", "Aphids", "Jassids", "Thrips"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 9,
+    "question": "The control measures against an insect pest should be advocated at:",
+    "options": ["Economic threshold level (ETL)", "Economic injury level (EIL)", "Above EIL", "Above ETL"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 10,
+    "question": "The utilization of parasitoids, predators, and pathogens for regulation of insect pest population comes under:",
+    "options": ["Cultural control", "Mechanical method", "Microbial control", "Biological control"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 11,
+    "question": "Oberia brevis is a pest of:",
+    "options": ["Maize", "Paddy", "Cotton", "Soybean"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 12,
+    "question": "Corcyra cephalonica belongs to order:",
+    "options": ["Coleoptera", "Diptera", "Lepidoptera", "None"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 13,
+    "question": "Inderbela quadrinotata feeds on:",
+    "options": ["Roots", "Flowers", "Fruits", "Bark"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 14,
+    "question": "Acherontia styx belongs to the order:",
+    "options": ["Hemiptera", "Coleoptera", "Diptera", "Lepidoptera"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 15,
+    "question": "'Dead heart' damage symptom in plants is caused by:",
+    "options": ["Borer insects", "Sucking insects", "Chewing insects", "All"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 16,
+    "question": "Which stored grain insect pest attacks in the field also:",
+    "options": ["Red rust flour beetle", "Rice moth", "Pulse beetle", "Khapra beetle"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 17,
+    "question": "Melon fruit fly pupates:",
+    "options": ["In fruit", "On stem", "In soil", "On flower"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 18,
+    "question": "Maize stem borer hibernates in a stage:",
+    "options": ["Larva", "Pupa", "Adult", "Egg"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 19,
+    "question": "Which of the following is a social insect:",
+    "options": ["Locust", "Grasshopper", "Termite", "White grub"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 20,
+    "question": "Locust feed on:",
+    "options": ["All plants except Aak/Dhatura", "All except Ber", "All except Bajra", "All plants"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 21,
+    "question": "Red hairy caterpillar belongs to family:",
+    "options": ["Arctiidae", "Noctuidae", "Pyralidae", "Acrididae"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 22,
+    "question": "Trichogramma is an egg parasitoid of:",
+    "options": ["Chilo partellus", "Tryporyza incertulus", "Pectinophora gossypiella", "All"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 23,
+    "question": "Leucinodes orbonalis is a pest of:",
+    "options": ["Tomato", "Brinjal", "Cotton", "Okra"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 24,
+    "question": "NPV infected larvae become flaccid, skin becomes fragile, larvae crawl to top of plants and hang upside down by prolegs:",
+    "options": ["NPV", "Bt", "Fungus", "Nematode"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 25,
+    "question": "'Pebrine' disease in Silkworm is caused by:",
+    "options": ["NPV", "Beauveria bassiana", "Bt", "Nosema bombycis"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 26,
+    "question": "Neem based pesticide is:",
+    "options": ["Dipel", "Delfin", "Margocide", "Halt"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 27,
+    "question": "Early sowing of mustard is recommended for the management of:",
+    "options": ["Aphids", "Whitefly", "Pod borer", "Mustard sawfly"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 28,
+    "question": "Agricultural Pests, Disease and Noxious Weeds Act was made in year:",
+    "options": ["1918", "1915", "1914", "1916"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 29,
+    "question": "Terrestrial arthropods (insects) excrete excess nitrogen as uric acid/salts known as:",
+    "options": ["Ammonotelic", "Ureotelic", "Uricotelic", "All"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 30,
+    "question": "Chrysoperla carnea is a:",
+    "options": ["Parasite", "Parasitoid", "Predator", "None"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 31,
+    "question": "Paraglossa is a part of:",
+    "options": ["Labrum", "Labium", "Maxilla", "Hypopharynx"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 32,
+    "question": "Fossorial type of leg is found in:",
+    "options": ["Grasshopper", "Mole cricket", "Preying mantis", "Cockroach"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 33,
+    "question": "Geniculate antenna is found in:",
+    "options": ["Wasp", "Termite", "Mosquito", "Grasshopper"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 34,
+    "question": "Halters are present in:",
+    "options": ["House fly", "Honey-bee", "Wasp", "Cockroach"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 35,
+    "question": "Tegmina are the modified wings of:",
+    "options": ["House fly", "Wasp", "Bug", "Grasshopper"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 36,
+    "question": "Elytra is a fore wing of:",
+    "options": ["Grasshopper", "Beetles", "Bugs", "Moths"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 37,
+    "question": "Cerci are present in:",
+    "options": ["Male cockroach", "Female cockroach", "Both", "None"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 38,
+    "question": "Gula is a part of:",
+    "options": ["Head", "Thorax", "Abdomen", "Wings"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 39,
+    "question": "The external genitalia of male grasshopper are located on:",
+    "options": ["7th abdominal segment", "8th", "9th", "10th"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 40,
+    "question": "Hymenoptera includes:",
+    "options": ["White ants", "Ants", "Antlion", "None"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 41,
+    "question": "Parthenogenetic type of reproduction is found in:",
+    "options": ["Grasshopper", "Aphid", "Honey-bee", "House fly"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 42,
+    "question": "Chewing and lapping types of mouth parts are present in:",
+    "options": ["Housefly", "Cockroach", "Honey bee", "Bug"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 43,
+    "question": "Trichogramma chilonis is a parasitoid of:",
+    "options": ["Egg", "Larva", "Adult", "Pupa"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 44,
+    "question": "Which disease is transmitted by housefly:",
+    "options": ["Malaria", "Kala azar", "Cholera", "Bubonic plague"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 45,
+    "question": "Bubonic plague is transmitted by:",
+    "options": ["Housefly", "Rat flea", "Sandfly", "Mosquito"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 46,
+    "question": "Exoskeleton of insect is made up of:",
+    "options": ["Calcium and protein", "Calcium and chitin", "Chitin and protein", "All"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 47,
+    "question": "Saltatorial type of leg is found in:",
+    "options": ["Grasshopper", "Mole cricket", "Preying mantis", "Cockroach"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 48,
+    "question": "Plumose type of antennae is found in:",
+    "options": ["Moth", "Termite", "Mosquito", "Grasshopper"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 49,
+    "question": "Coccus viridis is an insect pest of:",
+    "options": ["Coconut", "Coffee", "Cashew", "Almond"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 50,
+    "question": "Bacillus thuringiensis is generally used for the control of:",
+    "options": ["Grasshopper", "Termites", "Tomato fruit borer", "Cotton whitefly"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 51,
+    "question": "Which is a systemic insecticide:",
+    "options": ["Parathion", "Malathion", "Chloropyriphos", "Dimethoate"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 52,
+    "question": "Light trap is used for the control of:",
+    "options": ["Jassid", "Mustard sawfly", "Thrips", "Red hairy caterpillar"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 53,
+    "question": "Pest of sorghum belonging to order Diptera is:",
+    "options": ["Chilo partellus", "Rhopalosiphum maidis", "Atherigona soccata", "Bagrada cruciferarum"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 54,
+    "question": "Grassy stunt virus disease of paddy is transmitted by:",
+    "options": ["Nilaparvata lugens", "Thrips tabaci", "Tryporyza incertulus", "Bemisia tabaci"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 55,
+    "question": "Plume moth belongs to family:",
+    "options": ["Arctiidae", "Pyralidae", "Noctuidae", "Pterophoridae"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 56,
+    "question": "Name of egg parasitoid which is commercially produced and sold in India:",
+    "options": ["Telenomus sp.", "Trichogramma sp.", "Platytenomus sp", "None"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 57,
+    "question": "Chemicals used to kill mites are called:",
+    "options": ["Insecticide", "Nematicide", "Rodenticide", "Acaricide"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 58,
+    "question": "Bt genes of cotton are effective against:",
+    "options": ["Orthopteran insects", "Hemipteran insects", "Lepidopteran insects", "Sucking insects"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 59,
+    "question": "Which is the most diverse insect order:",
+    "options": ["Lepidoptera", "Hymenoptera", "Coleoptera", "Diptera"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 60,
+    "question": "Insect belonging to endopterygota has which type of metamorphosis:",
+    "options": ["Complete metamorphosis", "Indirect", "Holometabolous", "All"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  }
+      ]
+    }
 ]
 
 // kharif 
@@ -12375,13 +16063,13 @@ const testPaperRabi = [
 const seedTestData = async() => {
     try{
         // await TestPapers.deleteMany();
-        await TestPapers.insertMany(testPaperRabi);
-        console.log("data uploaded for rabi test papers");
+        // await TestPapers.insertMany(testPapersDataNemraj);
+        console.log("data uploaded for nemraj papers");
         
     }
     catch(error){
         console.log("error you faced " ,error);
     }
 }
-module.exports = seedTestData ;
+// module.exports = seedTestData ;
 // module.exports = seedData ;

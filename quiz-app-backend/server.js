@@ -11,7 +11,7 @@ const authRouter = require("./routes/authRoute");
 const myAttemptRouter = require("./routes/myAttemptRoute");
 const testreviewRouter = require("./routes/testreviewRoute") ;
 // const seedData = require("../quiz-app-backend/models/dataBaseSeeding")
-const seedTestData = require("../quiz-app-backend/models/dataBaseSeeding")
+// const seedTestData = require("../quiz-app-backend/models/dataBaseSeeding")
 const PORT = process.env.PORT || 5000 ; 
 
 connectDB() ;
