@@ -13,7 +13,7 @@ function GoogleAuth({ onClose }) {
       });
 
       localStorage.setItem("token", res.data.token);
-
+      
       toast.success("Login successful 🎉");
       setTimeout(() => {
         onClose();
