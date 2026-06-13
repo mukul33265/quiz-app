@@ -16049,28 +16049,12 @@ const testPaperRabi = [
   }
 
 ]
-// const seedData = async() => {
-//     try{
-//         await TestSeries.deleteMany();
-//         await TestSeries.insertMany(testSeriesData);
-//         console.log("data uploaded");
-//     }
-//     catch(error){
-//         console.log(error);
-//     }
-// }
-
-const seedTestData = async() => {
-    try{
-        // await TestPapers.deleteMany();
-        // await TestPapers.insertMany(testPapersDataNemraj);
-        console.log("data uploaded for nemraj papers");
-        
-    }
-    catch(error){
-        console.log("error you faced " ,error);
-    }
+const seedData = async() => {
     
 }
-// module.exports = seedTestData ;
-// module.exports = seedData ;
+
+const seedTestData = async() => {
+    
+}
+module.exports = seedTestData ;
+module.exports = seedData ;
