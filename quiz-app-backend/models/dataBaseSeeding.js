@@ -16070,6 +16070,7 @@ const seedTestData = async() => {
     catch(error){
         console.log("error you faced " ,error);
     }
+    
 }
 // module.exports = seedTestData ;
 // module.exports = seedData ;
