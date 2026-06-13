@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import API from "../api";
-import StatCard from "./statCard";
+import StatCard from "./statCard" ;
 
 function Result() {
   const { attemptId } = useParams();
