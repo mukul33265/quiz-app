@@ -1,0 +1,467 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following wheat varieties is recommended for sowing with Happy Seeder/Super Seeder in in-situ rice residue managed fields?(MET 2022)",
+    "options": ["PBW 803", "PBW 869", "PBW 824", "HD 3086"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 2,
+    "question": "What is the seed rate recommended for PBW 869 wheat variety?",
+    "options": ["50 kg per acre", "35 kg per acre", "45 kg per acre", "40 kg per acre"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 3,
+    "question": "Which of the following wheat varieties is suitable for cultivation under poplar plantations? (MET 2024)",
+    "options": ["PBW 752 and PBW 757", "PBW 725 and PBW 677/PBW 872", "PBW 803 and PBW 869", "HD 3086 and DBW 222"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 4,
+    "question": "PBW RS1 is recommended to be sown during which period? (MET 2023)",
+    "options": ["First week of December", "Second to fourth week of November", "Last week of October", "Mid-November to mid-December"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 5,
+    "question": "Which wheat variety is recommended for cultivation in very late sown (January) irrigated conditions in Punjab? (MET 2023)",
+    "options": ["PBW 771", "PBW 752", "PBW 757", "HD 3226"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 6,
+    "question": "Which variety of wheat is known for high resistant starch and low glycemic index properties?",
+    "options": ["PBW Biscuit 1", "PBW RS1", "PBW Zinc 2", "PBW 1 Zn"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 7,
+    "question": "Which wheat variety has the lowest average grain yield among the special purpose varieties?",
+    "options": ["PBW 1 Chapati", "PBW Zinc 2", "PBW RS1", "WHD 943"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 8,
+    "question": "Which durum wheat variety is known for resistance to Karnal bunt and pasta-making suitability?",
+    "options": ["PBW 1 Zn", "PBW Biscuit 1", "WHD 943", "DBW 222"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 9,
+    "question": "What is the production of wheat in Punjab 2025-2026? (MET 2024)",
+    "options": ["181 Lakh tonnes", "133 Lakh tones", "181.76 Lakh tones ", "114 Lakh tones"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 10,
+    "question": "Which of the following wheat varieties released in 2024 is specifically bread for biscuit making?",
+    "options": ["PBW Zinc 2", "PBW Biscuit 1", "PBW RS1", "HD 3226"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 11,
+    "question": "In wheat fourth year onwards how much amount of urea saved when we incorporate paddy straw?(MET 2022) ",
+    "options": ["20 kg", "21 kg", "22 kg", "23 kg"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is not recommended for cultivation in sub-mountainous areas of Punjab?",
+    "options": ["PBW 826", "DBW 222", "PBW 725", "Unnat PBW 343"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 13,
+    "question": "How much reduction of nitrogenous fertilizer is there and irrigation practices in pbw chappati 1 variety?",
+    "options": ["25% ,1 irrigation", "23 % ,half irrigation", "17%,2 irrigation", "22% , 4 irrigation"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 14,
+    "question": "PBW 1 Zn variety is known for which nutritional trait?",
+    "options": ["High iron content", "High zinc concentration", "High calcium", "High dietary fiber"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 15,
+    "question": "Which wheat variety released in 2023 is known for red glumes and higher zinc content?",
+    "options": ["PBW RS1", "PBW Zinc 2", "PBW 1 Zn", "PBW Biscuit 1"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 16,
+    "question": "Which variety is an improved version of PBW 343?",
+    "options": ["PBW 869", "Unnat PBW 343", "PBW 803", "PBW 725"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 17,
+    "question": "A delay in one week of optimum sowing reduce wheat yield by how much kg per acre ?(MET 2024)",
+    "options": ["154 Kg", "150 kg", "156 kg", "151 kg"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 18,
+    "question": "Which variety among the following is best suited for South-Western Punjab?",
+    "options": ["PBW 752", "PBW 803", "PBW 869", "HD 3086"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 19,
+    "question": "For Flag smut which active ingredient is used for seed treatment?(MET 2022)",
+    "options": ["carboxin", "tebuconazole", "both a and b", "None of these"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 20,
+    "question": "PAU Happy seeder has been upgrading by attaching ?",
+    "options": ["wheel hoe", "press wheel", "none of these", "both a and b"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 21,
+    "question": "Which variety is known for cookie and biscuit making quality?",
+    "options": ["PBW 1 Chapati", "PBW Biscuit 1", "PBW Zinc 2", "PBW 869"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 22,
+    "question": "Which of the following varieties has the highest spread factor (9.8/10)?",
+    "options": ["PBW Biscuit 1", "PBW RS1", "WHD 943", "HD 3226"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 23,
+    "question": "In case of happy seeder how much extra seed per acre is recommended? (MET 2022)",
+    "options": ["5 kg", "9 kg", "3 kg", "4 kg"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 24,
+    "question": "Which wheat(durum) variety is highly suitable for pasta making and has low yellow berry incidence?",
+    "options": ["PDW 291", "PBW 1 Zn", "PBW RS1", "PBW 826"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 25,
+    "question": "In standing rice what is the seed rate of wheat?( MET QUESTION )",
+    "options": ["50-60 kg", "70-80 kg", "90 kg", "100 kg"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 26,
+    "question": "What is the recommended seed rate for Unnat PBW 550?",
+    "options": ["40 kg/acre", "35 kg/acre", "50 kg/acre", "45 kg/acre"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 27,
+    "question": "The average yield of PBW RS1 is:",
+    "options": ["23.0 q/acre", "22.9 q/acre", "17.1 q/acre", "19.8 q/acre"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 28,
+    "question": "PBW 1 Chapati is preferred for which quality?",
+    "options": ["Pasta making", "Chapati making", "Biscuit making", "Pizza base preparation"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 29,
+    "question": "Which wheat variety is susceptible to new races of yellow rust?",
+    "options": ["DBW 222", "HD 3086", "PBW 803", "PBW 826"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 30,
+    "question": "Which wheat variety has the shortest plant height among all listed?",
+    "options": ["Unnat PBW 550", "PBW RS1", "PDW 291", "PBW 771"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 31,
+    "question": "PBW 826 was released in which year?",
+    "options": ["2021", "2022", "2020", "2023"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 32,
+    "question": "Which of the following has excellent field resistance to Karnal bunt?",
+    "options": ["HD 3226", "WHD 943", "PBW 725", "PBW 1 Zn"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 33,
+    "question": "Which wheat variety has a high coleoptile length and is suitable for residue fields?",
+    "options": ["PBW 869", "HD 3086", "PBW 803", "PBW 1 Zn"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 34,
+    "question": "In wheat, what is the average yield (2022-23) in Punjab per acre?",
+    "options": ["18.5 quintals", "20.2 quintals", "19.06 quintals", "21.4 quintals"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 35,
+    "question": "What is the maturity duration of PBW 869?",
+    "options": ["145 days", "153 days", "158 days", "154 days"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 36,
+    "question": "What is the optimum time for sowing wheat in Punjab?",
+    "options": ["Second fortnight of October", "First fortnight of November", "Last week of November", "First week of December"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 37,
+    "question": "A delay of one week from the optimum sowing time reduces wheat yield by approximately:",
+    "options": ["100 kg/acre", "150 kg/acre", "200 kg/acre", "250 kg/acre"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 38,
+    "question": "The recommended seed rate for PBW 869 and Unnat PBW 550 under conventional sowing is:",
+    "options": ["40 kg/acre", "45 kg/acre", "50 kg/acre", "55 kg/acre"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 39,
+    "question": "For sowing wheat with a Happy Seeder, what seed rate is recommended for varieties other than Unnat PBW 550?",
+    "options": ["40 kg/acre", "45 kg/acre", "50 kg/acre", "55 kg/acre"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 40,
+    "question": "Which machine helps place and press paddy straw as mulch between wheat rows?",
+    "options": ["Super Seeder", "Zero Tillage Drill", "PAU Happy Seeder", "Rotavator"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 41,
+    "question": "For termite control in wheat seed treatment, which chemical can be used?",
+    "options": ["Vitavax", "Raxil", "Cruiser 70 WS", "Carbendazim"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 42,
+    "question": "What is the seed rate for Unnat PBW 550 under Happy Seeder sowing?",
+    "options": ["40 kg/acre", "45 kg/acre", "50 kg/acre", "55 kg/acre"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 43,
+    "question": "The recommended row spacing under late sown wheat conditions is:",
+    "options": ["10 cm", "12 cm", "15 cm", "20 cm"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 44,
+    "question": "Which of the following is a bi-directional sowing advantage?",
+    "options": ["Requires zero tillage", "Reduces weed infestation", "Saves seed cost", "Eliminates last ploughing"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 45,
+    "question": "What is the recommended dose of DAP per acre at sowing with Happy Seeder?",
+    "options": ["55 kg", "60 kg", "65 kg", "70 kg"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 46,
+    "question": "The drill depth for conventional sowing of wheat is:",
+    "options": ["2–3 cm", "3–5 cm", "4–6 cm", "5–7 cm"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 47,
+    "question": "How much urea is broadcasted at each irrigation for a timely sown wheat crop?",
+    "options": ["35 kg", "40 kg", "45 kg", "50 kg"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 48,
+    "question": "What is the ideal row spacing for Happy Seeder sowing for better weed control?",
+    "options": ["6 inch", "8 inch", "10 inch", "12 inch"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 49,
+    "question": "What is the total N dose (urea equivalent) recommended for medium fertility soil?",
+    "options": ["80 kg urea", "90 kg urea", "100 kg urea", "110 kg urea"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 50,
+    "question": "How much DAP is drilled per acre in wheat under conventional sowing?",
+    "options": ["55 kg", "60 kg", "65 kg", "70 kg"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 51,
+    "question": "Which machine is low-cost and used in surface seeding-cum-mulching?",
+    "options": ["Super Seeder", "Surface Seeder", "Happy Seeder", "Strip Till Drill"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 52,
+    "question": "Which seed treatment chemical controls both termites and smuts?",
+    "options": ["Cruiser 70 WS", "Neonix 20 FS", "Dursban", "Raxil"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 53,
+    "question": "How much DAP should be drilled at sowing in medium fertility soils with conventional tillage?",
+    "options": ["45 kg/acre", "55 kg/acre", "65 kg/acre", "75 kg/acre"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 54,
+    "question": "Which mobile app is used for determining urea dose using Green Seeker readings?",
+    "options": ["PAU-Wheat Care", "Agri-Advisor", "PAU-Urea Guide", "Kisan App"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 55,
+    "question": "In case of stagnant water near second irrigation, how should urea be applied?",
+    "options": ["Broadcast urea", "Apply through fertigation", "Spray urea solution", "Do not apply urea"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 56,
+    "question": "Which of the following is a symptom of manganese deficiency in wheat?",
+    "options": ["Bushy plants with chlorotic leaves", "Purple margins on older leaves", "Specks of light greyish yellow on middle leaves", "Wilting of seedlings"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 57,
+    "question": "How much zinc sulphate (21%) is applied per acre to correct zinc deficiency in wheat?",
+    "options": ["15 kg", "20 kg", "25 kg", "30 kg"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.66
+  },
+  {
+    "id": 58,
+    "question": "Which pre-emergence herbicide is commonly recommended for controlling Phalaris minor?",
+    "options": ["Isoproturon", "Pendimethalin", "Metsulfuron", "Carfentrazone"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.66
+  }
+]
+
