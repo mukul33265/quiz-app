@@ -12,4 +12,4 @@ function StatCard({ title, value }) {
   );
 }
 
-export default C;
+export default StatCard;
