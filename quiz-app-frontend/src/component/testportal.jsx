@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import toast from "react-hot-toast";
 import API from "../api";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate ,useBlocker } from "react-router-dom";
 
 export default function TestPortal() {
   const navigate = useNavigate();
@@ -27,26 +27,52 @@ export default function TestPortal() {
 
   const question = questions?.[currentQuestion];
 
-  useEffect(() => {
-    // Prevent immediate navigation away
-    window.history.pushState(null, "", window.location.href);
+  // useEffect(() => {
+  //   window.history.pushState(null, "", window.location.href);
+  //   const handlePopState = async () => {
+  //     const confirmed = window.confirm(
+  //       "Are you sure you want to leave the test? Your test will be submitted automatically.",
+  //     );
+  //     if (confirmed) {
+  //       await handleSubmit();
+  //     } else {
+  //       window.history.pushState(null, "", window.location.href);
+  //     }
+  //   };
+  //   window.addEventListener("popstate", handlePopState);
+  //   return () => {
+  //     window.removeEventListener("popstate", handlePopState);
+  //   };
+  // }, []);
+
+useEffect(() => {
+  const handleBeforeUnload = (e) => {
+    e.preventDefault();
+    e.returnValue =
+      "Are you sure you want to leave the test? Your test will be submitted automatically.";
+  };
 
     const handlePopState = async () => {
-      const confirmed = window.confirm(
-        "Are you sure you want to leave the test? Your test will be submitted automatically.",
+      const confirmLeave = window.confirm(
+        "Are you sure you want to leave the test? Your test will be submitted automatically."
       );
 
-      if (confirmed) {
+      if (confirmLeave) {
         await handleSubmit();
       } else {
-        // Stay on current page
         window.history.pushState(null, "", window.location.href);
       }
     };
 
+    // prevent refresh / tab close
+    window.addEventListener("beforeunload", handleBeforeUnload);
+
+    // back button
+    window.history.pushState(null, "", window.location.href);
     window.addEventListener("popstate", handlePopState);
 
     return () => {
+      window.removeEventListener("beforeunload", handleBeforeUnload);
       window.removeEventListener("popstate", handlePopState);
     };
   }, []);

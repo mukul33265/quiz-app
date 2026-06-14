@@ -1,18 +1,18 @@
 const Pricing = () => {
   const plans = [
     {
-      name: "Nemraj General Agricultural Package",
-      price: "₹79",
+      name: "General Agriculture",
+      price: "₹49",
       description: "For MET Entrance test for all agricultural university",
       dotClass: "bg-green-600",
       innerBorderClass: "border-neutral-700/50",
       buttonClass: "bg-green-600 hover:bg-green-400 text-black",
       features: [
-        { text: "All subject test series", included: true },
-        { text: "Contain 20+ test papers", included: true },
-        { text: "All section contains 100+ questions", included: true },
-        // { text: "Advanced analytics", included: false },
-        { text: "Detailed explanation of every answers", included: true }, 
+        { text: "Nemraj Sunda + Arun Katyan + R.K. Sharma + S.R. kantwa", included: true },
+        { text: "Contain Quality test papers", included: true },
+        { text: "All section contains 50+ questions", included: true },
+        { text: "Advanced analytics", included: true },
+        // { text: "Detailed explanation of every answers", included: true }, 
         // { text: "Custom integrations", included: false },
       ],
     },
@@ -24,10 +24,10 @@ const Pricing = () => {
       innerBorderClass: "border-green-600/20",
       buttonClass: "bg-green-600 hover:bg-green-400 text-black",
       features: [
-        { text: "Contains PYQs", included: true },
+        { text: "Contains 50+ questions of every crop", included: true },
         { text: "All crops MCQ", included: true },
         { text: "Questions based on the latest PAU rabi recommendations(POP)", included: true },
-        { text: "Detailed explanation of every answers", included: true },
+        { text: "Advanced analytics", included: true },
         // { text: "Up to 20 team members", included: true },
         // { text: "Custom integrations", included: false },
       ],
@@ -40,10 +40,10 @@ const Pricing = () => {
       innerBorderClass: "border-green-600/20",
       buttonClass: "bg-green-600 hover:bg-green-400 text-black",
       features: [
-        { text: "Contains PYQs", included: true },
+        { text: "Contains 50+ questions of every crop", included: true },
         { text: "All crops MCQ", included: true },
         { text: "Questions based on the latest PAU rabi recommendations(POP)", included: true },
-        { text: "Detailed explanation of every answers", included: true },
+        { text: "Advanced analytics", included: true },
         // { text: "Up to 20 team members", included: true },
         // { text: "Custom integrations", included: false },
       ],
@@ -122,10 +122,10 @@ const Pricing = () => {
 
       <section className="bg-black px-4 py-20" id="pricing">
         <div className="mx-auto flex max-w-6xl flex-col items-center">
-          <div className="flex items-center gap-2 rounded-full border border-t-green-400 bg-neutral-800 px-5 py-2">
+          {/* <div className="flex items-center gap-2 rounded-full border border-t-green-400 bg-neutral-800 px-5 py-2">
             <span className="size-1.5 rounded-full bg-green-400"></span>
             <p className="text-base text-white">Pricing</p>
-          </div>
+          </div> */}
 
           <h2 className="mt-6 text-center text-4xl md:text-5xl font-medium text-white">
             Simple & Affordable Pricing
@@ -152,7 +152,7 @@ const Pricing = () => {
                       {plan.price}
                     </h3>
                     <p className="pt-2 text-xs font-medium uppercase tracking-wide text-white">
-                      /month
+                      / 2 month
                     </p>
                   </div>
 
