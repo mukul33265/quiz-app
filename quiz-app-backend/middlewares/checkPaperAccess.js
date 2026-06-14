@@ -1,4 +1,4 @@
-const Purchase = require("../models/Purchase");
+const Purchase = require("../models/purchase");
 const TestPapers = require("../models/testPapers");
 
 const checkPaperAccess = async (req, res, next) => {
