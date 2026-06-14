@@ -64,7 +64,6 @@ const Pricing = () => {
                 }
                 
               );
-              console.log("Verify response:", verifyResponse.data);
               toast.dismiss(verifyToast);
               if (verifyResponse.data.success) {
                 toast.success(
