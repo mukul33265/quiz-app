@@ -10,9 +10,6 @@ function Hero({ openLogin }) {
   const [token, setToken] = useState(localStorage.getItem("token"));
   const navigate = useNavigate();
   useEffect(() => {
-    setToken(localStorage.getItem("token"));
-  }, []);
-  useEffect(() => {
     // Listen for storage changes (login/logout from other tabs or components)
     const handleStorageChange = () => {
       const newToken = localStorage.getItem("token");

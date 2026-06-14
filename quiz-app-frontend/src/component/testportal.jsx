@@ -256,11 +256,11 @@ export default function TestPortal() {
             {/* Marks */}
             <div className="flex justify-end gap-2 sm:gap-3 mb-4 sm:mb-8 flex-wrap">
               <span className="bg-green-50 text-green-600 px-2 sm:px-4 py-1 rounded-md text-xs sm:text-sm">
-                +1 correct
+                +{question?.marks} Marks
               </span>
 
               <span className="bg-red-50 text-red-500 px-2 sm:px-4 py-1 rounded-md text-xs sm:text-sm">
-                -0.25 wrong
+                -{question?.negativeMarks} Marks
               </span>
             </div>
 
