@@ -19,31 +19,23 @@ export default function TestPortal() {
         setQuestions(res.data.questions);
         setDuration(res.data.durationSeconds);
       } catch (err) {
-        console.log(err);
+        if (err.response?.status === 403) {
+        toast.error(
+          err.response.data.message ||
+          "Please purchase the test series first"
+        );
+
+        navigate("/");
+        } else {
+          toast.error("Something went wrong");
+        }
       }
-    };
+        };
     fetchQuestion();
   }, [id]);
 
   const question = questions?.[currentQuestion];
 
-  // useEffect(() => {
-  //   window.history.pushState(null, "", window.location.href);
-  //   const handlePopState = async () => {
-  //     const confirmed = window.confirm(
-  //       "Are you sure you want to leave the test? Your test will be submitted automatically.",
-  //     );
-  //     if (confirmed) {
-  //       await handleSubmit();
-  //     } else {
-  //       window.history.pushState(null, "", window.location.href);
-  //     }
-  //   };
-  //   window.addEventListener("popstate", handlePopState);
-  //   return () => {
-  //     window.removeEventListener("popstate", handlePopState);
-  //   };
-  // }, []);
 
 useEffect(() => {
   const handleBeforeUnload = (e) => {
@@ -296,7 +288,7 @@ useEffect(() => {
             </h2>
 
             {/* Options */}
-            <div className="space-y-2 sm:space-y-4 flex-1 overflow-y-auto pr-2">
+            <div className="space-y-2 sm:space-y-4 overflow-y-auto pr-2">
               {question?.options?.map((option, index) => (
                 <label
                   key={index}

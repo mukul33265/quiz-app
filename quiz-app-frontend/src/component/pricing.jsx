@@ -1,8 +1,120 @@
+import { useState } from "react";
+import API from "../api"
+import toast from "react-hot-toast";
+import { useNavigate } from "react-router-dom";
+
 const Pricing = () => {
+
+  const [loading, setLoading] = useState(false);
+  const navigate = useNavigate() ;
+
+  const handlePayment = async(seriesId) => {
+      try{
+        const token = localStorage.getItem("token");
+
+        if(!token){
+          toast.error("Please Login first !");
+          navigate("/google/auth");
+          return;
+        }
+        setLoading(true);
+        const loadingToast = toast.loading(
+          "Initializing payment..."
+        );
+        const {data} = await API.post("/create-order", { seriesId });
+        toast.dismiss(loadingToast);
+        if (!data.success) {
+          toast.error(data.message);
+          return;
+        }
+        const options = {
+          key: import.meta.env.VITE_RAZORPAY_KEY_ID,
+
+          amount: data.order.amount,
+          currency: data.order.currency,
+          order_id: data.order.id,
+
+          name: "ExamAce",
+          description: data.series.title,
+
+          prefill: {
+            name: data.user?.name || "",
+            email: data.user?.email || "",
+          },
+
+          handler: async function(response) {
+
+            const verifyToast = toast.loading(
+              "Verifying payment..."
+            );
+
+            try {
+              const verifyResponse = await API.post(
+                "/verify-payment",
+                {
+                  seriesId,
+                  razorpay_order_id:
+                    response.razorpay_order_id,
+
+                  razorpay_payment_id:
+                    response.razorpay_payment_id,
+
+                  razorpay_signature:
+                    response.razorpay_signature,
+                }
+                
+              );
+              console.log("Verify response:", verifyResponse.data);
+              toast.dismiss(verifyToast);
+              if (verifyResponse.data.success) {
+                toast.success(
+                  "Payment successful! Test series unlocked."
+                );
+                navigate(`/testseries/${seriesId}`);
+              } else {
+                toast.error(
+                  verifyResponse.data.message ||
+                  "Payment verification failed"
+                );
+              }
+            } catch(err) {
+              toast.dismiss(verifyToast);
+              toast.error(
+                err.response?.data?.message ||
+                "Verification failed"
+              );
+            }
+          },
+          modal: {
+            ondismiss: function () {
+              toast("Payment cancelled");
+            },
+          },
+        };
+        const razorpay = new window.Razorpay(options);
+        razorpay.on("payment.failed", function(response) {
+          toast.error(
+            response.error?.description ||
+            "Payment Failed"
+          );
+        });
+        razorpay.open();
+      } catch(err) {
+          toast.error(
+          err.response?.data?.message ||
+          err.message ||
+          "Unable to initiate payment"
+        );
+      } finally {
+        setLoading(false);
+      }
+    };
+
   const plans = [
     {
       name: "General Agriculture",
       price: "₹49",
+      seriesId : "6a296dfd99dd14ee9f0c7882",
       description: "For MET Entrance test for all agricultural university",
       dotClass: "bg-green-600",
       innerBorderClass: "border-neutral-700/50",
@@ -19,6 +131,7 @@ const Pricing = () => {
     {
       name: "PAU Rabi Package test",
       price: "₹89",
+      seriesId : "6a296dfd99dd14ee9f0c7883",
       description: "For general agriculture and agronomy (major)",
       dotClass: "bg-green-600",
       innerBorderClass: "border-green-600/20",
@@ -35,6 +148,7 @@ const Pricing = () => {
     {
       name: "PAU Kharif Package test",
       price: "₹89",
+      seriesId : "6a296dfd99dd14ee9f0c7884",
       description: "For general agriculture and agronomy (major)",
       dotClass: "bg-green-600",
       innerBorderClass: "border-green-600/20",
@@ -160,10 +274,10 @@ const Pricing = () => {
                     {plan.description}
                   </p>
 
-                  <button
+                  <button onClick={() => handlePayment(plan.seriesId)}
                     className={`mt-6 flex w-full items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-medium text-white cursor-pointer group ${plan.buttonClass}`}
                   >
-                    GET STARTED
+                    BUY NOW
                     <ArrowIcon className="group-hover:translate-x-1 transition-all duration-300" />
                   </button>
 

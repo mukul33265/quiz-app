@@ -2,6 +2,7 @@ import axios from "axios" ;
 
 const API = axios.create({
     baseURL : "https://quiz-app-u5x4.onrender.com",
+    // baseURL : "http://localhost:5000",
 })
 
 // Add token to every request

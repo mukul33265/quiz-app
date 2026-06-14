@@ -38,6 +38,7 @@ function TestPapersPage() {
   }
 
   const handleStartTest = (paperId) => {
+    
     const confirmed = window.confirm( "Are you sure you want to start the test?\n\nThe timer will start immediately.") ;
 
     if(confirmed) {

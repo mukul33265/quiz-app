@@ -10,22 +10,16 @@ function Hero({ openLogin }) {
   const [token, setToken] = useState(localStorage.getItem("token"));
   const navigate = useNavigate();
   useEffect(() => {
-    // Listen for storage changes (login/logout from other tabs or components)
-    const handleStorageChange = () => {
-      const newToken = localStorage.getItem("token");
-      setToken(newToken);
-      setUser(newToken ? getUser() : null);
-    };
+  const syncAuth = () => {
+    const newToken = localStorage.getItem("token");
+    setToken(newToken);
+    setUser(newToken ? getUser() : null);
+  };
 
-    window.addEventListener("storage", handleStorageChange);
-
-    // Also set user on component mount
-    if (token) {
-      setUser(getUser());
-    }
-
-    return () => window.removeEventListener("storage", handleStorageChange);
-  }, [token]);
+    window.addEventListener("authChange", syncAuth);
+    syncAuth(); // initial sync
+    return () => window.removeEventListener("authChange", syncAuth);
+  }, []);
 
   const handleLogout = () => {
     try {
