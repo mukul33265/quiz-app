@@ -2,6 +2,827 @@ const mongoose = require("mongoose");
 const TestSeries = require("./testSeries");
 const TestPapers = require("./testPapers");
 
+const mockPaper = [
+  {
+
+        title: "General Agriculture free Mock Test",
+    
+        testSeriesId: "6a296dfd99dd14ee9f0c7882",
+    
+        durationSeconds: 7200,
+    
+        totalMarks: 200,
+    
+        negativeMarkingEnabled: true,
+    
+        shuffleQuestions: false,
+        
+        questions : [
+  {
+    "id": 1,
+    "question": "Which crop has the highest cultivated area in the world?",
+    "options": ["Rice", "Wheat", "Barley", "Bajra"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 2,
+    "question": "Rice is originated in?",
+    "options": ["SW Asia", "Europe", "South America", "India & Burma"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 3,
+    "question": "Productivity of rice is highest in?",
+    "options": ["Haryana", "Punjab", "West Bengal", "Uttar Pradesh"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 4,
+    "question": "The genus Oryza includes?",
+    "options": ["14 species", "22 species", "24 species", "30 species"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 5,
+    "question": "Rice crop needs?",
+    "options": ["Warm and humid climate", "Hot and humid climate", "Dry and hot conditions", "Cold and dry climate"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 6,
+    "question": "Photoperiodically, rice is a type of ... plant?",
+    "options": ["Long day", "Short day", "Day neutral", "Intermediate"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 7,
+    "question": "IR-8 variety of rice is introduced in India from?",
+    "options": ["Taiwan", "Philippines", "Indonesia", "USA"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 8,
+    "question": "Which of the following variety is a dwarf mutant?",
+    "options": ["IR-8", "Jaya", "Pusa-2-21", "Jagannath"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 9,
+    "question": "For transplanting one hectare area of rice, how much area is sufficient for nursery raising?",
+    "options": ["100 m²", "500 m²", "1000 m²", "1500 m²"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 10,
+    "question": "Dapog method of raising nursery of rice has been introduced in India from?",
+    "options": ["Indonesia", "Taiwan", "Israel", "Philippines"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 11,
+    "question": "In rice, Dapog seedlings would be ready for transplanting in?",
+    "options": ["11-14 days", "14-17 days", "17-20 days", "20-23 days"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 12,
+    "question": "Tungro virus of rice is transmitted by?",
+    "options": ["Stem borer", "Leaf roller", "Green leaf hopper", "Gundhi bug"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 13,
+    "question": "Dead heart and white head damage to rice is caused by?",
+    "options": ["Gall midge", "Leaf roller", "Army worm", "Stem borer"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 14,
+    "question": "Golden rice is a rich source of?",
+    "options": ["Vitamin A", "Vitamin B", "Ascorbic acid", "Vitamin K"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 15,
+    "question": "The scientific name of common bread wheat is?",
+    "options": ["T. dicoccum", "Triticum aestivum", "T. spherococcum", "T. spelta"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 16,
+    "question": "Wheat is originated in?",
+    "options": ["South America", "Central Asia (Turkey)", "SE Asia", "Europe"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 17,
+    "question": "Temperature requirement for proper grain filling of wheat is?",
+    "options": ["20-25°C", "20-23°C", "23-25°C", "16-20°C"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 18,
+    "question": "The inflorescence of wheat is known as?",
+    "options": ["Ear", "Raceme", "Panicle", "Umbel"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 19,
+    "question": "First irrigation to the wheat crop should be given at?",
+    "options": ["CRI stage", "Tillering stage", "Jointing stage", "Dough stage"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 20,
+    "question": "Phalaris minor in wheat can be controlled by using?",
+    "options": ["2,4-D", "Isoproturon", "Atrazine", "Gramaxone"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 21,
+    "question": "Triticale is a cross between?",
+    "options": ["Wheat x rye", "Oat x barley", "Wheat x barley", "None of these"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 22,
+    "question": "Phalaris minor belongs to the family?",
+    "options": ["Cyperacene", "Gramineae", "Solanaceae", "Malvaceae"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 23,
+    "question": "The scientific name of noble cane is?",
+    "options": ["Saccharum officinarum", "Saccharum spontaneum", "S. barberi", "S. sinense"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 24,
+    "question": "Which state has the highest productivity of sugarcane?",
+    "options": ["U.P.", "W. B.", "Karnataka", "Tamil Nadu"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 25,
+    "question": "Which element is essential for sugar translocation in sugarcane?",
+    "options": ["P", "K", "B", "Mo"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 26,
+    "question": "Most critical weed competition period in sugarcane is?",
+    "options": ["2 months", "4 months", "5 months", "6 months"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 27,
+    "question": "Most serious disease of sugarcane is?",
+    "options": ["Red stripe", "Red rot", "Wilt", "Smut"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 28,
+    "question": "How many setts are needed to plant one hectare of sugarcane?",
+    "options": ["30,000-35,000", "35,000-40,000", "40,000-45,000", "50,000-55,000"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 29,
+    "question": "Which one of the following food grains is most coarse?",
+    "options": ["Panicum miliaceum", "Echinochloa frumentacea", "Setaria italica", "Paspalum scrobiculatum"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 30,
+    "question": "Contribution of flag leaf in photosynthates is about?",
+    "options": ["52%", "40%", "35%", "20%"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 31,
+    "question": "Which one of the following crops is most sensitive to both excess moisture and drought?",
+    "options": ["Direct seeded rice", "Maize", "Sunflower", "Sorghum"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 32,
+    "question": "Which one of the following is a mycoheribicide?",
+    "options": ["Diquat", "Met sulfuron methyl", "Collego", "Bromacil"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 33,
+    "question": "Productivity of an intercrop per unit area of ground compared with that expected from sole crop is?",
+    "options": ["Land equivalent ratio", "Competitive ratio", "Land equivalent coefficient", "Crop performance ratio"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 34,
+    "question": "The capacity of a soil to resist appreciable change in pH value is called?",
+    "options": ["CEC", "Buffering capacity", "Percentage base saturation", "Anion-exchange capacity"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 35,
+    "question": "Mechanical analysis of soil makes use of?",
+    "options": ["Darcy's law", "Stoke's law", "Schofield's law", "Ohm's law"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 36,
+    "question": "Humic acid is a fraction of humus, which is?",
+    "options": ["Soluble in alkali and acid", "Soluble in alkali and insoluble in acid", "Insoluble in alkali and soluble in acid", "Insoluble in both"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 37,
+    "question": "Which one of the following sequences is being used in a combination seed treatment?",
+    "options": ["Rhizobium, fungicide and insecticide", "Rhizobium, insecticide and fungicide", "Fungicide, insecticide and Rhizobium", "Insecticide, Rhizobium and fungicide"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 38,
+    "question": "The element which does not enter into permanent organic combination in plants is?",
+    "options": ["Nitrogen", "Phosphorus", "Magnesium", "Potassium"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 39,
+    "question": "Tetrazolium test is used to determine?",
+    "options": ["Seed purity", "Seed germination", "Seed viability", "Seed quality"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 40,
+    "question": "The fruit of rapeseed and mustard is known as?",
+    "options": ["Pod", "Grain", "Siliqua", "Caryopsis"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 41,
+    "question": "The inherent capacity of soil to supply plant nutrients is called?",
+    "options": ["Fertility index", "Soil fertility", "Soil productivity", "None of these"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 42,
+    "question": "The criteria of essentiality of nutrients in plants was given by?",
+    "options": ["DJ Nicholas", "Arnon and Stout", "JS Kanwar", "Rajendra Prasad"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 43,
+    "question": "Potato is a?",
+    "options": ["Modified stem", "Modified root", "Modified leaf", "Modified flower"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 44,
+    "question": "The method of irrigation employed where surface is undulating is?",
+    "options": ["Flood irrigation", "Sprinkler irrigation", "Drip irrigation", "Subsurface irrigation"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 45,
+    "question": "The depth of sowing of bajra is?",
+    "options": ["1-2 cm", "3-4 cm", "4-5 cm", "5-6 cm"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 46,
+    "question": "The main objective of growing a catch crop is to?",
+    "options": ["Add more residues to the soil", "Prevent cracking of soil", "Suppress weeds", "Get an additional income without further investment"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 47,
+    "question": "Botanical name of Ragi is?",
+    "options": ["Eleusine coracana", "Echinochloa frumentacea", "Panicum miliaceum", "None of these"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 48,
+    "question": "The most serious pest of bengalgram is?",
+    "options": ["Pod borer", "Cut worm", "Aphid", "None of these"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 49,
+    "question": "Raising of crop with the least tillage operations is called?",
+    "options": ["Zero tillage", "Minimum tillage", "No tillage", "None of these"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 50,
+    "question": "Sunflower act as an indicator plant to diagnose the deficiency of?",
+    "options": ["Boron", "Iron", "Nitrogen", "Phosphorus"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 51,
+    "question": "Bacteria responsible for N fixation in soybean is?",
+    "options": ["R. phaseoli", "R. glycicum", "R. japonicum", "R. leguminoserum"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 52,
+    "question": "The most critical stage of maize from irrigation point of view is?",
+    "options": ["Silking stage", "Tasseling stage", "Boot stage", "Dough stage"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 53,
+    "question": "Growing of coconut, black pepper and ginger simultaneously in the same field is called?",
+    "options": ["Relay cropping", "Inter cropping", "Multiple cropping", "Multistoried cropping"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 54,
+    "question": "Botanical name of Sewan grass is?",
+    "options": ["Lasiurus sindicus", "Panicum maximum", "Cynodon dactylon", "Cenchrus ciliaris"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 55,
+    "question": "The term 'Evergreen Revolution' has been given by?",
+    "options": ["Dr. AS Faroda", "Dr. MS Swaminathan", "Dr. VL Chopra", "Dr. RS Faroda"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 56,
+    "question": "Maximum residual acidity is associated with the continuous soil application of?",
+    "options": ["Urea", "Ammonium nitrate", "Ammonium sulphate", "CAN"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 57,
+    "question": "If on a 20 acre farm, crops are raised on 15 acres in rabi, 15 acres in kharif and 20 acres in zaid in a year, what shall be the cropping intensity?",
+    "options": ["300%", "400%", "250%", "150%"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 58,
+    "question": "Which one of the following microbial agents is being commercially exploited as biocontrol agent?",
+    "options": ["Penicillium notatum", "Bacillus subtilis", "Trichoderma viridiae", "Sclerotium rolfsii"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 59,
+    "question": "Which one of the following is the best example of catch crop?",
+    "options": ["Linseed", "Mustard", "Toria", "Groundnut"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 60,
+    "question": "The cohesiveness and tenderness of cooked rice depends largely on?",
+    "options": ["The percentage of amylose", "The percentage of amylopectin", "The proportion of amylose and protein", "The proportion of amylose and amylopectin"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 61,
+    "question": "At field capacity the water is held at?",
+    "options": ["0.033 MPa", "0.30 MPa", "3.00 MPa", "30.00 MPa"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 62,
+    "question": "In rice, the chemical which is used to increase CO2 uptake?",
+    "options": ["Phenylmercuric acetate", "Atrazine", "PMA", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 63,
+    "question": "Which form of nitrogen is available in urea?",
+    "options": ["Ammonical", "Amide", "Nitrite", "Nitrate"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 64,
+    "question": "The downward movement of surface soil water is known as?",
+    "options": ["Infiltration", "Percolation", "Leaching", "Wash out"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 65,
+    "question": "Which vegetable oil is good for heart patient?",
+    "options": ["Groundnut oil", "Mustard oil", "Soybean oil", "Sunflower oil"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 66,
+    "question": "The ginning percentage in cotton can be worked out by the formula?",
+    "options": ["(Weight of lint / weight of cotton) x 100", "(Weight of lint / weight of seed cotton) x 100", "(Weight of cotton seed / weight of lint) x 100", "(Weight of seed cotton / weight of lint) x 100"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 67,
+    "question": "An example of companion cropping is?",
+    "options": ["Sugarcane + potato", "Potato + mustard", "Potato + radish", "Wheat + mustard"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 68,
+    "question": "'Aruna' is a mutant variety of?",
+    "options": ["Pea", "Cotton", "Castor", "Soybean"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 69,
+    "question": "Which soil has the highest cation exchange capacity?",
+    "options": ["Loam", "Loamy sand", "Sandy loam", "Clay loam"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 70,
+    "question": "Excess uptake of which element is known as luxury consumption?",
+    "options": ["N", "P", "K", "Zn"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 71,
+    "question": "Texture of the soil can be changed by?",
+    "options": ["Use of fertilizer", "Use of manures", "Use of tillage practices", "None of these"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 72,
+    "question": "Most widely used biocontrol agent is?",
+    "options": ["Pseudomonas fluorescens", "Bacillus subtilis", "Trichoderma viride", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 73,
+    "question": "The 'Little leaf' of brinjal is transmitted by?",
+    "options": ["Jassids", "White fly", "Aphids", "None"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 74,
+    "question": "The scientific name of banana aphid is?",
+    "options": ["Thrips florum", "Pentalonia nigronervosa", "Cosmopolites sordidus", "Virachola isocrates"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 75,
+    "question": "Which one of the following is a non-selective herbicide?",
+    "options": ["Alachlor", "Butachlor", "Paraquat", "Atrazine"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 76,
+    "question": "Which gas is released from paddy fields?",
+    "options": ["CH4", "H2S", "CO2", "NH3"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 77,
+    "question": "The optimum seed rate of hybrid maize is?",
+    "options": ["20-25 kg/ha", "18 kg/ha", "30-35 kg/ha", "10-15 kg/ha"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 78,
+    "question": "The most serious pest of bengalgram is?",
+    "options": ["Pod borer", "Cut worm", "Aphid", "None of these"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 79,
+    "question": "The ginning percentage in cotton is?",
+    "options": ["33%", "25%", "40%", "50%"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 80,
+    "question": "For which nutrient element, plants depend strongly on chelation?",
+    "options": ["Nitrogen, Manganese and Phosphorus", "Phosphorus, Sulphur and Boron", "Copper, Zinc and Iron", "Molybdenum, Potassium and Manganese"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 81,
+    "question": "The plant hormone which helps in enlarging the grape fruit is?",
+    "options": ["Abscisic acid", "Gibberellic acid", "Cytokinins", "Ethylene"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 82,
+    "question": "Vegetative parthenocarpy is found in?",
+    "options": ["Grape", "Banana", "Fig", "Seedless guava"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 83,
+    "question": "Richest source of Vitamin 'A' is?",
+    "options": ["Ripe mango fruit", "Carrot root", "Ripe papaya fruit", "Ripe tomato fruit"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 84,
+    "question": "Which of the following is used to check sprouting of onion under storage?",
+    "options": ["NAA", "M.H.", "C.A.", "F.C.F.A."],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 85,
+    "question": "'Pusa - Meghali' is an improved variety of?",
+    "options": ["Carrot", "Radish", "Beet root", "Turnip"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 86,
+    "question": "The edible part of pomegranate is?",
+    "options": ["Aril", "Thalamus", "Mesocarp", "Endocarp"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 87,
+    "question": "\"Pusa Giant\" variety of papaya is?",
+    "options": ["Dioecious", "Gynodioecious", "Monoecious", "Andromonoecious"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 88,
+    "question": "\"Little leaf\" of brinjal is caused by?",
+    "options": ["Fungus", "Bacteria", "Virus", "Mycoplasma"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 89,
+    "question": "Which is the most cold hardy citrus root stock?",
+    "options": ["Trifoliate orange", "Mosambi", "Sour lime", "Lemon"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 90,
+    "question": "'Santa Rosa' is a popular variety of?",
+    "options": ["Plum", "Walnut", "Apple", "Cashew nut"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 91,
+    "question": "'Sweetest sugar' in fruit is?",
+    "options": ["Galactose", "Glucose", "Fructose", "Sucrose"],
+    "correctAnswer": 2,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 92,
+    "question": "In Onion 'bolting' takes place due to?",
+    "options": ["High temperature", "Low temperature", "Excess of nitrogen", "Deficiency of nitrogen"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 93,
+    "question": "Which one of the following crops has the highest consumption of pesticide?",
+    "options": ["Paddy", "Cotton", "Oilseeds", "Vegetables"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 94,
+    "question": "'Blind tillage' refers to?",
+    "options": ["Summer ploughing", "Hoeing in standing crop rows", "Primary tillage", "Hoeing before germination"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 95,
+    "question": "Process of loosening for separating fibres from plant is known as?",
+    "options": ["Curing", "Retting", "Wetting", "Netting"],
+    "correctAnswer": 1,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 96,
+    "question": "'Chipsona' is a variety of?",
+    "options": ["Tapioca", "Sweet potato", "Elephant foot", "Potato"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 97,
+    "question": "Which country is the place of origin of sunflower?",
+    "options": ["Southern United State and Mexico", "Spain", "Soviet Union", "Argentina"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 98,
+    "question": "How many agroclimatic zones are categorized in India?",
+    "options": ["5", "10", "14", "15"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 99,
+    "question": "Which one of the following is not narrow leaved weeds?",
+    "options": ["Cynodon dactylon", "Cyperus rotundus", "Setaria glanca", "Melilotus indica"],
+    "correctAnswer": 3,
+    "marks": 2,
+    "negativeMarks": 0.25
+  },
+  {
+    "id": 100,
+    "question": "Which cereal is non tillering in nature?",
+    "options": ["Maize", "Wheat", "Barley", "Paddy"],
+    "correctAnswer": 0,
+    "marks": 2,
+    "negativeMarks": 0.25
+  }
+]
+
+}
+]
+
 const testSeriesData = [
     {
         title : "Nemraj Sunda test series",
@@ -16054,7 +16875,13 @@ const seedData = async() => {
 }
 
 const seedTestData = async() => {
-    
+    // try {
+    //   await TestPapers.create(mockPaper) ;
+    //   console.log("data uploaded")
+    // }
+    // catch(err){
+    //   console.log(err) ;
+    // }
 }
-module.exports = seedTestData ;
-module.exports = seedData ;
+// module.exports = seedTestData ;
+// module.exports = seedData ;

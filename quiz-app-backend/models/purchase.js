@@ -14,12 +14,6 @@ const purchaseSchema = new mongoose.Schema(
       required: true,
     },
 
-    accessType: {
-      type: String,
-      enum: ["series", "paper"],
-      default: "series",
-    },
-
     amountPaid: {
       type: Number,
       required: true,
@@ -31,7 +25,15 @@ const purchaseSchema = new mongoose.Schema(
       default: "pending",
     },
 
-    paymentId: {
+    razorpayOrderId: {
+      type: String,
+    },
+
+    razorpayPaymentId: {
+      type: String,
+    },
+
+    razorpaySignature: {
       type: String,
     },
 
@@ -40,14 +42,13 @@ const purchaseSchema = new mongoose.Schema(
       default: Date.now,
     },
 
-    validFrom: {
-      type: Date,
-      default: Date.now,
-    },
-
     validTill: {
       type: Date,
-      required: true,
+      default: () => {
+        const date = new Date();
+        date.setMonth(date.getMonth() + 2);
+        return date;
+      }
     },
 
     isActive: {
@@ -61,4 +62,6 @@ const purchaseSchema = new mongoose.Schema(
 // Prevent duplicate purchase for same series
 purchaseSchema.index({ userId: 1, testSeriesId: 1 }, { unique: true });
 
-module.exports = mongoose.model("Purchase", purchaseSchema);
+module.exports =
+  mongoose.models.Purchase ||
+  mongoose.model("Purchase", purchaseSchema);

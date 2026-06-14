@@ -2,8 +2,9 @@ const express = require('express');
 const testPortalRouter = express.Router() ;
 const TestPapers = require("../models/testPapers");
 const auth = require('../middlewares/auth');
+const checkPaperAccess = require("../middlewares/checkPaperAccess");
 
-testPortalRouter.get('/testpaper/:id', auth,async (req,res) => {
+testPortalRouter.get('/testpaper/:id', auth,checkPaperAccess,async (req,res) => {
     try {
         const paper = await TestPapers.findById(req.params.id);
         if (!paper) {

@@ -10,6 +10,9 @@ const testAttemptRouter = require("./routes/testAttemptRoute");
 const authRouter = require("./routes/authRoute");
 const myAttemptRouter = require("./routes/myAttemptRoute");
 const testreviewRouter = require("./routes/testreviewRoute") ;
+const razorpayRouter = require("./routes/razorpayRoute") ;
+const verifyPaymentRoute = require("./routes/verifyPaymentRoute");
+
 // const seedData = require("../quiz-app-backend/models/dataBaseSeeding")
 // const seedTestData = require("../quiz-app-backend/models/dataBaseSeeding")
 const PORT = process.env.PORT || 5000 ; 
@@ -19,7 +22,12 @@ connectDB() ;
 // seedTestData();
 dotenv.config();
 const app = express();
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://exam-ace-three.vercel.app",
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 app.use("/testseries",testRouter);
@@ -30,6 +38,8 @@ app.use("/",testAttemptRouter);
 app.use("/",authRouter) ;
 app.use("/",myAttemptRouter) ;
 app.use("/",testreviewRouter) ;
+app.use("/",razorpayRouter);
+app.use("/",verifyPaymentRoute);
 
 app.get("/",(req,res) => {
     res.send("Server is fine")

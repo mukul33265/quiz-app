@@ -2,8 +2,9 @@ const express = require("express");
 const myAttemptRouter = express.Router() ;
 const auth = require("../middlewares/auth");
 const TestAttempt = require("../models/testAttempt"); 
+const hasAnyPurchase = require("../middlewares/hasPurchase");
 
-myAttemptRouter.get("/my-attempt" , auth , async (req,res) => {
+myAttemptRouter.get("/my-attempt" , auth , hasAnyPurchase ,async (req,res) => {
 
     try{
         const attempts = await  TestAttempt.find({userId : req.user.userId})
