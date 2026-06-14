@@ -8,8 +8,6 @@ const verifyPaymentRoute = express.Router() ;
 
 verifyPaymentRoute.post("/verify-payment",auth, async(req,res) => {
 
-    console.log("VERIFY HIT")
-    console.log(req.body) ;
   try {
     const {
       razorpay_order_id,
@@ -43,8 +41,6 @@ verifyPaymentRoute.post("/verify-payment",auth, async(req,res) => {
         `${razorpay_order_id}|${razorpay_payment_id}`
       )
       .digest("hex");
-    console.log("Generated:", generatedSignature);
-    console.log("Received :", razorpay_signature);
     const isValid =
       generatedSignature === razorpay_signature;
 
@@ -107,10 +103,7 @@ verifyPaymentRoute.post("/verify-payment",auth, async(req,res) => {
         razorpaySignature: razorpay_signature,
     });
 
-    console.log("Purchase saved:", purchase);
-
     } catch (err) {
-    console.log("Purchase create error:", err);
 
     return res.status(500).json({
         success: false,
