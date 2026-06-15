@@ -129,7 +129,7 @@ const Pricing = () => {
     },
     {
       name: "PAU Rabi Package test",
-      price: "₹89",
+      price: "₹59",
       seriesId : "6a296dfd99dd14ee9f0c7883",
       description: "For general agriculture and agronomy (major)",
       dotClass: "bg-green-600",
@@ -146,7 +146,7 @@ const Pricing = () => {
     },
     {
       name: "PAU Kharif Package test",
-      price: "₹89",
+      price: "₹59",
       seriesId : "6a296dfd99dd14ee9f0c7884",
       description: "For general agriculture and agronomy (major)",
       dotClass: "bg-green-600",
