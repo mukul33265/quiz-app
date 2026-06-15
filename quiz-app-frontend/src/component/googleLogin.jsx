@@ -8,22 +8,20 @@ function GoogleAuth({ onClose }) {
 
   const handleLogin = async (credentialResponse) => {
     try {
+      toast.loading("Signing you in...",{id: "login"})
       const res = await API.post("/auth/google", {
         token: credentialResponse.credential,
       });
 
       localStorage.setItem("token", res.data.token);
       window.dispatchEvent(new Event("authChange"));
-      toast.success("Login successful 🎉");
-      setTimeout(() => {
-        onClose();
-        navigate("/");
-      }, 300);
 
+      toast.success("Login successful 🎉",{id: "login"});
+      onclose();
       navigate("/");
+
     } catch (err) {
-      console.log(err);
-      toast.error("Login failed ❌");
+      toast.error(err.response?.data?.message || "Login failed ❌");
     }
   };
 
