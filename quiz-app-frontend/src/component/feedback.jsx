@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import toast from "react-hot-toast";
-import API from "axios";
+import API from "../api";
 
 export default function FeedbackPage({ onClose }) {
   const emailRef = useRef(null);
