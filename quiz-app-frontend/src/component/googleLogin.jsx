@@ -17,7 +17,7 @@ function GoogleAuth({ onClose }) {
       window.dispatchEvent(new Event("authChange"));
 
       toast.success("Login successful 🎉",{id: "login"});
-      onclose();
+      onClose();
       navigate("/");
 
     } catch (err) {
