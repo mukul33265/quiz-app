@@ -3,12 +3,17 @@ import examIcon from "../assets/examIcon.svg";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import { getUser } from "../utils/auth";
+import FeedbackPage from "./feedback";
 
 function Hero({ openLogin }) {
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [user, setUser] = useState(null);
   const [token, setToken] = useState(localStorage.getItem("token"));
+  const [showFeedback,setShowFeeback] = useState(false) ;
   const navigate = useNavigate();
+  const openFeedback = () => {
+    setShowFeeback(true);
+  }
   useEffect(() => {
   const syncAuth = () => {
     const newToken = localStorage.getItem("token");
@@ -99,6 +104,12 @@ function Hero({ openLogin }) {
             >
               My Attempts 
             </a>
+            <button
+              onClick={openFeedback}
+              className="text-sm text-slate-50 hover:text-slate-300 transition"
+            >
+              Feedback 
+            </button>
           </div>
           <div>
            {token ? (
@@ -172,6 +183,14 @@ function Hero({ openLogin }) {
           <a href="/my-attempt" onClick={() => setMobileOpen(false)}>
             My Attempts
           </a>
+          <button
+            onClick={() => {
+              setMobileOpen(false);
+              openFeedback();
+            }}
+          >
+            Feedback
+          </button>
 
           <button
             id="close-menu"
@@ -232,6 +251,11 @@ function Hero({ openLogin }) {
 
         {/* <p className="text-slate-400 mt-20 md:mt-25"></p> */}
       </section>
+      {showFeedback && (
+        <FeedbackPage
+          onClose={() => setShowFeeback(false)}
+        />
+      )}
     </>
   );
 }

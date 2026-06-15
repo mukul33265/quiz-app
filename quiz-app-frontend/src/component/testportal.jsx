@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import toast from "react-hot-toast";
 import API from "../api";
 import { useParams, useNavigate ,useBlocker } from "react-router-dom";
@@ -36,7 +36,7 @@ export default function TestPortal() {
 
   const question = questions?.[currentQuestion];
 
-
+const isSubmitting = useRef(false);
 useEffect(() => {
   const handleBeforeUnload = (e) => {
     e.preventDefault();
@@ -71,6 +71,8 @@ useEffect(() => {
 
   // handling the submit button
   const handleSubmit = async () => {
+    if (isSubmitting.current) return;
+    isSubmitting.current = true;
     try {
       const res = await API.post("/submit", {
         testPaperId: id,
@@ -82,6 +84,7 @@ useEffect(() => {
       localStorage.removeItem(`status_${id}`);
       navigate(`/result/${res.data.attemptId}`);
     } catch (err) {
+      isSubmitting.current = false;
       console.log(err);
       toast.error(err?.response?.data?.message || "Failed to submit test");
     }
@@ -256,6 +259,7 @@ useEffect(() => {
           onClick={() => {
             handleSubmit();
           }}
+          disabled={isSubmitting.current}
           className="bg-green-700 !text-white px-3 sm:px-5 py-2 rounded-lg font-medium hover:bg-green-800 transition text-sm sm:text-base order-2 sm:order-none"
         >
           Submit
