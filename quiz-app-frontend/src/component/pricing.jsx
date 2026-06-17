@@ -239,7 +239,6 @@ const Pricing = () => {
             <span className="size-1.5 rounded-full bg-green-400"></span>
             <p className="text-base text-white">Pricing</p>
           </div> */}
-
           <h2 className="mt-6 text-center text-4xl md:text-5xl font-medium text-white">
             Simple & Affordable Pricing
           </h2>

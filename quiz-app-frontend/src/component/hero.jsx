@@ -223,6 +223,7 @@ function Hero({ openLogin }) {
           topic-wise tests, and detailed analytics — all in one place.
         </p>
 
+
         <div className="flex items-center gap-4 mt-10">
           <button
             onClick={() => navigate("/testseries")}
@@ -249,7 +250,7 @@ function Hero({ openLogin }) {
           </button>
         </div>
 
-        {/* <p className="text-slate-400 mt-20 md:mt-25"></p> */}
+        <p className="text-white text-3xl font-bold !mt-12 ml-11  md:mt-25">PYQs (2020-2025) ADDED RECENTLY !</p>
       </section>
       {showFeedback && (
         <FeedbackPage

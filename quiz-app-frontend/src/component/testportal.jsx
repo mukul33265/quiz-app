@@ -8,7 +8,7 @@ export default function TestPortal() {
   const { id } = useParams();
   const token = localStorage.getItem("token");
   const [duration, setDuration] = useState(null);
-
+  const [loading, setLoading] = useState(true);
   // question fetch
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [questions, setQuestions] = useState([]);
@@ -17,6 +17,7 @@ export default function TestPortal() {
       try {
         const res = await API.get(`/testpaper/${id}`);
         setQuestions(res.data.questions);
+        setLoading(true) ;
         setDuration(res.data.durationSeconds);
       } catch (err) {
         if (err.response?.status === 403) {
@@ -270,12 +271,38 @@ useEffect(() => {
       <div className="flex flex-col lg:flex-row gap-3 sm:gap-4 p-3 sm:p-4 flex-1 overflow-hidden">
         {/* Left Side */}
         <div className="flex-1 flex flex-col min-w-0 overflow-hidden">
-          <p className="text-gray-600 text-xs sm:text-sm font-bold mb-2 sm:mb-3">
+          {loading ? (
+            <p className="text-gray-600 text-xs sm:text-sm font-bold mb-2 sm:mb-3">
+            Loading...
+          </p>
+          ) : (
+            <p className="text-gray-600 text-xs sm:text-sm font-bold mb-2 sm:mb-3">
             Question {currentQuestion + 1} of {questions.length}
           </p>
+          )}
+          
 
           <div className="bg-white rounded-xl sm:rounded-2xl shadow-sm p-3 sm:p-5 flex-1 flex flex-col overflow-hidden">
-            {/* Marks */}
+
+            {loading ? (
+              <div className="flex flex-col gap-4 animate-pulse">
+
+              <div className="h-6 w-32 bg-gray-200 rounded"></div>
+
+              <div className="h-8 w-full bg-gray-200 rounded"></div>
+
+              <div className="h-14 w-full bg-gray-200 rounded-xl"></div>
+
+              <div className="h-14 w-full bg-gray-200 rounded-xl"></div>
+
+              <div className="h-14 w-full bg-gray-200 rounded-xl"></div>
+
+              <div className="h-14 w-full bg-gray-200 rounded-xl"></div>
+
+            </div>
+
+            ) : (
+           <>
             <div className="flex justify-end gap-2 sm:gap-3 mb-4 sm:mb-8 flex-wrap">
               <span className="bg-green-50 text-green-600 px-2 sm:px-4 py-1 rounded-md text-xs sm:text-sm">
                 +{question?.marks} Marks
@@ -316,6 +343,8 @@ useEffect(() => {
                 </label>
               ))}
             </div>
+            </>
+            )}
 
             {/* Divider */}
             <div className="border-t border-gray-200 my-4 sm:my-8"></div>
