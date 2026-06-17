@@ -17,7 +17,7 @@ export default function TestPortal() {
       try {
         const res = await API.get(`/testpaper/${id}`);
         setQuestions(res.data.questions);
-        setLoading(true) ;
+        setLoading(false) ;
         setDuration(res.data.durationSeconds);
       } catch (err) {
         if (err.response?.status === 403) {
