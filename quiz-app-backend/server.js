@@ -13,6 +13,7 @@ const testreviewRouter = require("./routes/testreviewRoute") ;
 const razorpayRouter = require("./routes/razorpayRoute") ;
 const verifyPaymentRoute = require("./routes/verifyPaymentRoute");
 const feedbackRouter = require("./routes/feedbackRoute");
+const purchaseDetailsRouter = require("./routes/purchaseDetailsRoute");
 // const seedData = require("../quiz-app-backend/models/dataBaseSeeding")
 // const seedTestData = require("../quiz-app-backend/models/dataBaseSeeding")
 const PORT = process.env.PORT || 5000 ; 
@@ -25,6 +26,7 @@ const app = express();
 app.use(
   cors({
     origin: "https://exam-ace-three.vercel.app",
+    // origin: "http://localhost:5173",
     credentials: true,
   })
 );
@@ -41,6 +43,7 @@ app.use("/",testreviewRouter) ;
 app.use("/",razorpayRouter);
 app.use("/",verifyPaymentRoute);
 app.use("/",feedbackRouter) ;
+app.use("/",purchaseDetailsRouter);
 
 app.get("/",(req,res) => {
     res.send("Server is fine")
