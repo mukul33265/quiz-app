@@ -43,7 +43,7 @@ function App() {
                   <GoogleAuth onClose={() => setShowLogin(false)} />
                 )}
               <Pricing />
-              <Freetrail />
+              {/* <Freetrail /> */}
             </>
           }
         />

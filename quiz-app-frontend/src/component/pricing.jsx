@@ -1,9 +1,22 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import API from "../api"
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 
 const Pricing = () => {
+  const [testIds,setTestIds] = useState([]);
+
+  useEffect(() => {
+  const fetchPurchasedTests = async () => {
+    try {
+      const res = await API.get("/purchase-details");
+      setTestIds(res.data);
+    } catch (err) {
+      console.log(err);
+    }
+    };
+    fetchPurchasedTests();
+  }, []);
 
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate() ;
@@ -272,10 +285,20 @@ const Pricing = () => {
                     {plan.description}
                   </p>
 
-                  <button onClick={() => handlePayment(plan.seriesId)}
-                    className={`mt-6 flex w-full items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-medium text-white cursor-pointer group ${plan.buttonClass}`}
+                  <button onClick={() =>{
+                      if (testIds.includes(plan.seriesId)) {
+                        navigate("/testseries");
+                      } else {
+                        handlePayment(plan.seriesId);
+                      }
+                  } }                
+                    className={`mt-6 flex w-full items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-medium text-white cursor-pointer group ${
+                      testIds.includes(plan.seriesId)
+                        ? "bg-yellow-300 hover:bg-yellow-400"
+                        : plan.buttonClass
+                  }`}
                   >
-                    BUY NOW
+                    {testIds.includes(plan.seriesId) ? "GET STARTED" : "BUY NOW"}
                     <ArrowIcon className="group-hover:translate-x-1 transition-all duration-300" />
                   </button>
 
