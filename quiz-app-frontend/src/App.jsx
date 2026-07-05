@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import heroImg from "./assets/hero.png";
@@ -22,14 +22,13 @@ function App() {
   const [showLogin, setShowLogin] = useState(false);
   return (
     <div
-    className="scroll-smooth"
+      className="scroll-smooth"
       style={{
         width: "100%",
         height: "100vh",
         position: "relative",
         backgroundColor: "#0a0a0a",
         overflow: "auto",
-
       }}
     >
       <Routes>
@@ -38,10 +37,8 @@ function App() {
           element={
             <>
               <Hero openLogin={() => setShowLogin(true)} />
-                {/* MODAL */}
-                {showLogin && (
-                  <GoogleAuth onClose={() => setShowLogin(false)} />
-                )}
+              {/* MODAL */}
+              {showLogin && <GoogleAuth onClose={() => setShowLogin(false)} />}
               <Pricing />
               {/* <Freetrail /> */}
             </>
@@ -50,37 +47,45 @@ function App() {
 
         <Route path="/auth/google" element={<GoogleAuth />} />
         <Route path="/auth/google" element={<GoogleAuth />} />
-        <Route path="/my-attempt" element={
-          <ProtectedRoute>
-            <MyAttempts/>
-          </ProtectedRoute>
-          }/>
-        <Route path="/testseries" element={
-            <TestSeriesPage/>
-          } />
-        <Route path="/testseries/:id" element={ 
-            <TestPapersPage/>
-          }/>
-        <Route path="/testpaper/:id" element={
-          <ProtectedRoute>
-            <TestPortal/>
-          </ProtectedRoute>
-          }/>
-        <Route path="/result/:attemptId" element={
-          <ProtectedRoute>
-            <Result/>
-          </ProtectedRoute>
-          }/>
-        <Route path="/review/:attemptId" element={
-          <ProtectedRoute>
-            <TestReview/>
-          </ProtectedRoute>
-        }/>
+        <Route
+          path="/my-attempt"
+          element={
+            <ProtectedRoute>
+              <MyAttempts />
+            </ProtectedRoute>
+          }
+        />
+        <Route path="/testseries" element={<TestSeriesPage />} />
+        <Route path="/testseries/:id" element={<TestPapersPage />} />
+        <Route
+          path="/testpaper/:id"
+          element={
+            <ProtectedRoute>
+              <TestPortal />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/result/:attemptId"
+          element={
+            <ProtectedRoute>
+              <Result />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/review/:attemptId"
+          element={
+            <ProtectedRoute>
+              <TestReview />
+            </ProtectedRoute>
+          }
+        />
 
-      <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
 }
 
-export default App; 
+export default App;

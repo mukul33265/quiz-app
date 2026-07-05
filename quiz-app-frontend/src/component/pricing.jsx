@@ -1,149 +1,144 @@
-import { useState,useEffect } from "react";
-import API from "../api"
+import { useState, useEffect } from "react";
+import API from "../api";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 
-const Pricing = () => {
-  const [testIds,setTestIds] = useState([]);
+const Pricing = ({ token: propToken }) => {
+  const [testIds, setTestIds] = useState([]);
+  const token = propToken || localStorage.getItem("token");
 
   useEffect(() => {
-  const fetchPurchasedTests = async () => {
-    try {
-      const res = await API.get("/purchase-details");
-      setTestIds(res.data);
-    } catch (err) {
-      console.log(err);
-    }
-    };
-    fetchPurchasedTests();
-  }, []);
-
-  const [loading, setLoading] = useState(false);
-  const navigate = useNavigate() ;
-
-  const handlePayment = async(seriesId) => {
-      try{
-        const token = localStorage.getItem("token");
-
-        if(!token){
-          toast.error("Please Login first !");
-          navigate("/google/auth");
-          return;
-        }
-        setLoading(true);
-        const loadingToast = toast.loading(
-          "Initializing payment..."
-        );
-        const {data} = await API.post("/create-order", { seriesId });
-        toast.dismiss(loadingToast);
-        if (!data.success) {
-          toast.error(data.message);
-          return;
-        }
-        const options = {
-          key: import.meta.env.VITE_RAZORPAY_KEY_ID,
-
-          amount: data.order.amount,
-          currency: data.order.currency,
-          order_id: data.order.id,
-
-          name: "ExamAce",
-          description: data.series.title,
-
-          prefill: {
-            name: data.user?.name || "",
-            email: data.user?.email || "",
-          },
-
-          handler: async function(response) {
-
-            const verifyToast = toast.loading(
-              "Verifying payment..."
-            );
-
-            try {
-              const verifyResponse = await API.post(
-                "/verify-payment",
-                {
-                  seriesId,
-                  razorpay_order_id:
-                    response.razorpay_order_id,
-
-                  razorpay_payment_id:
-                    response.razorpay_payment_id,
-
-                  razorpay_signature:
-                    response.razorpay_signature,
-                }
-                
-              );
-              toast.dismiss(verifyToast);
-              if (verifyResponse.data.success) {
-                toast.success(
-                  "Payment successful! Test series unlocked."
-                );
-                navigate(`/testseries/${seriesId}`);
-              } else {
-                toast.error(
-                  verifyResponse.data.message ||
-                  "Payment verification failed"
-                );
-              }
-            } catch(err) {
-              toast.dismiss(verifyToast);
-              toast.error(
-                err.response?.data?.message ||
-                "Verification failed"
-              );
-            }
-          },
-          modal: {
-            ondismiss: function () {
-              toast("Payment cancelled");
-            },
-          },
-        };
-        const razorpay = new window.Razorpay(options);
-        razorpay.on("payment.failed", function(response) {
-          toast.error(
-            response.error?.description ||
-            "Payment Failed"
-          );
-        });
-        razorpay.open();
-      } catch(err) {
-          toast.error(
-          err.response?.data?.message ||
-          err.message ||
-          "Unable to initiate payment"
-        );
-      } finally {
-        setLoading(false);
+    const fetchPurchasedTests = async () => {
+      if (!token) {
+        setTestIds([]);
+        return;
+      }
+      try {
+        const res = await API.get("/purchase-details");
+        const purchasedSeriesIds = (res.data || []).map((id) => String(id));
+        setTestIds(purchasedSeriesIds);
+      } catch (err) {
+        console.log(err);
+        setTestIds([]);
       }
     };
+    fetchPurchasedTests();
+  }, [token]);
+
+  const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
+
+  const hasPurchasedSeries = (seriesId) =>
+    testIds.some((id) => String(id) === String(seriesId));
+
+  const handlePayment = async (seriesId) => {
+    try {
+      const token = localStorage.getItem("token");
+
+      if (!token) {
+        toast.error("Please Login first !");
+        navigate("/google/auth");
+        return;
+      }
+      setLoading(true);
+      const loadingToast = toast.loading("Initializing payment...");
+      const { data } = await API.post("/create-order", { seriesId });
+      toast.dismiss(loadingToast);
+      if (!data.success) {
+        toast.error(data.message);
+        return;
+      }
+      const options = {
+        key: import.meta.env.VITE_RAZORPAY_KEY_ID,
+
+        amount: data.order.amount,
+        currency: data.order.currency,
+        order_id: data.order.id,
+
+        name: "ExamAce",
+        description: data.series.title,
+
+        prefill: {
+          name: data.user?.name || "",
+          email: data.user?.email || "",
+        },
+
+        handler: async function (response) {
+          const verifyToast = toast.loading("Verifying payment...");
+
+          try {
+            const verifyResponse = await API.post("/verify-payment", {
+              seriesId,
+              razorpay_order_id: response.razorpay_order_id,
+
+              razorpay_payment_id: response.razorpay_payment_id,
+
+              razorpay_signature: response.razorpay_signature,
+            });
+            toast.dismiss(verifyToast);
+            if (verifyResponse.data.success) {
+              setTestIds((prev) =>
+                prev.includes(seriesId) ? prev : [...prev, seriesId],
+              );
+              toast.success("Payment successful! Test series unlocked.");
+              navigate(`/testseries/${seriesId}`);
+            } else {
+              toast.error(
+                verifyResponse.data.message || "Payment verification failed",
+              );
+            }
+          } catch (err) {
+            toast.dismiss(verifyToast);
+            toast.error(err.response?.data?.message || "Verification failed");
+          }
+        },
+        modal: {
+          ondismiss: function () {
+            toast("Payment cancelled");
+          },
+        },
+      };
+      const razorpay = new window.Razorpay(options);
+      razorpay.on("payment.failed", function (response) {
+        toast.error(response.error?.description || "Payment Failed");
+      });
+      razorpay.open();
+    } catch (err) {
+      toast.error(
+        err.response?.data?.message ||
+          err.message ||
+          "Unable to initiate payment",
+      );
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const plans = [
     {
       name: "General Agriculture",
       price: "₹49",
-      seriesId : "6a296dfd99dd14ee9f0c7882",
+      seriesId: "6a296dfd99dd14ee9f0c7882",
       description: "For MET Entrance test for all agricultural university",
       dotClass: "bg-green-600",
       innerBorderClass: "border-neutral-700/50",
       buttonClass: "bg-green-600 hover:bg-green-400 text-black",
       features: [
-        { text: "Nemraj Sunda + Arun Katyan + R.K. Sharma + S.R. kantwa", included: true },
+        {
+          text: "Nemraj Sunda + Arun Katyan + R.K. Sharma + S.R. kantwa",
+          included: true,
+        },
         { text: "Contain Quality test papers", included: true },
         { text: "All section contains 50+ questions", included: true },
         { text: "Advanced analytics", included: true },
-        // { text: "Detailed explanation of every answers", included: true }, 
+        // { text: "Detailed explanation of every answers", included: true },
         // { text: "Custom integrations", included: false },
       ],
     },
     {
       name: "PAU Rabi Package test",
       price: "₹59",
-      seriesId : "6a296dfd99dd14ee9f0c7883",
+      seriesId: "6a296dfd99dd14ee9f0c7883",
       description: "For general agriculture and agronomy (major)",
       dotClass: "bg-green-600",
       innerBorderClass: "border-green-600/20",
@@ -151,7 +146,10 @@ const Pricing = () => {
       features: [
         { text: "Contains 50+ questions of every crop", included: true },
         { text: "All crops MCQ", included: true },
-        { text: "Questions based on the latest PAU rabi recommendations(POP)", included: true },
+        {
+          text: "Questions based on the latest PAU rabi recommendations(POP)",
+          included: true,
+        },
         { text: "Advanced analytics", included: true },
         // { text: "Up to 20 team members", included: true },
         // { text: "Custom integrations", included: false },
@@ -160,7 +158,7 @@ const Pricing = () => {
     {
       name: "PAU Kharif Package test",
       price: "₹59",
-      seriesId : "6a296dfd99dd14ee9f0c7884",
+      seriesId: "6a296dfd99dd14ee9f0c7884",
       description: "For general agriculture and agronomy (major)",
       dotClass: "bg-green-600",
       innerBorderClass: "border-green-600/20",
@@ -168,7 +166,10 @@ const Pricing = () => {
       features: [
         { text: "Contains 50+ questions of every crop", included: true },
         { text: "All crops MCQ", included: true },
-        { text: "Questions based on the latest PAU rabi recommendations(POP)", included: true },
+        {
+          text: "Questions based on the latest PAU rabi recommendations(POP)",
+          included: true,
+        },
         { text: "Advanced analytics", included: true },
         // { text: "Up to 20 team members", included: true },
         // { text: "Custom integrations", included: false },
@@ -285,20 +286,23 @@ const Pricing = () => {
                     {plan.description}
                   </p>
 
-                  <button onClick={() =>{
-                      if (testIds.includes(plan.seriesId)) {
+                  <button
+                    onClick={() => {
+                      if (hasPurchasedSeries(plan.seriesId)) {
                         navigate("/testseries");
                       } else {
                         handlePayment(plan.seriesId);
                       }
-                  } }                
+                    }}
                     className={`mt-6 flex w-full items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-medium text-white cursor-pointer group ${
-                      testIds.includes(plan.seriesId)
+                      hasPurchasedSeries(plan.seriesId)
                         ? "bg-yellow-300 hover:bg-yellow-400"
                         : plan.buttonClass
-                  }`}
+                    }`}
                   >
-                    {testIds.includes(plan.seriesId) ? "GET STARTED" : "BUY NOW"}
+                    {hasPurchasedSeries(plan.seriesId)
+                      ? "GET STARTED"
+                      : "BUY NOW"}
                     <ArrowIcon className="group-hover:translate-x-1 transition-all duration-300" />
                   </button>
 
