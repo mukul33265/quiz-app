@@ -7,12 +7,13 @@ purchaseDetailsRouter.get("/purchase-details" ,auth, async(req,res) => {
     try{
         const userId = req.user.userId;
         const purchases = await Purchase.find(
-            { userId },
+            { userId, paymentStatus: "success", isActive: true },
             { testSeriesId: 1, _id: 0 }
         );
-        const testSeriesIds = purchases.map(
-            (purchase) => purchase.testSeriesId
-        );
+        const testSeriesIds = purchases
+            .map((purchase) => purchase.testSeriesId)
+            .filter(Boolean)
+            .map((id) => id.toString());
         res.status(200).json(testSeriesIds);
     }
     catch(err){
