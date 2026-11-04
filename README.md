@@ -28,7 +28,6 @@ The platform has been used by **100+ users** and has recorded **250+ test attemp
 ## Live Demo
 
 - **Application:** [https://exam-ace-three.vercel.app/](https://exam-ace-three.vercel.app/)
-- **Backend:** [https://quiz-app-u5x4.onrender.com](https://quiz-app-u5x4.onrender.com)
 
 > The backend may take a short time to respond if its hosting service has put it to sleep.
 
