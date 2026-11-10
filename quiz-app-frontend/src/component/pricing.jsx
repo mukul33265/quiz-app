@@ -249,10 +249,7 @@ const Pricing = ({ token: propToken }) => {
 
       <section className="bg-black px-4 py-20" id="pricing">
         <div className="mx-auto flex max-w-6xl flex-col items-center">
-          {/* <div className="flex items-center gap-2 rounded-full border border-t-green-400 bg-neutral-800 px-5 py-2">
-            <span className="size-1.5 rounded-full bg-green-400"></span>
-            <p className="text-base text-white">Pricing</p>
-          </div> */}
+        
           <h2 className="mt-6 text-center text-4xl md:text-5xl font-medium text-white">
             Simple & Affordable Pricing
           </h2>
@@ -323,6 +320,7 @@ const Pricing = ({ token: propToken }) => {
           </div>
         </div>
       </section>
+
     </>
   );
 };

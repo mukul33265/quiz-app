@@ -11,6 +11,7 @@ function GoogleAuth({ onClose }) {
       toast.loading("Signing you in...",{id: "login"})
       const res = await API.post("/auth/google", {
         token: credentialResponse.credential,
+        
       });
 
       localStorage.setItem("token", res.data.token);
@@ -47,7 +48,7 @@ function GoogleAuth({ onClose }) {
           </h1>
 
           <p className="text-gray-300 mb-10">
-            Sign in to continue your test journey
+            Sign in to continue your print journey
           </p>
 
           {/* Google Login */}

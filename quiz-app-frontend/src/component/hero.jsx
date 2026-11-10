@@ -250,8 +250,14 @@ function Hero({ openLogin }) {
           </button>
         </div>
 
-        <p className="text-white text-3xl font-bold !mt-12 ml-11  md:mt-25">PYQs (2020-2025) ADDED RECENTLY !</p>
+        
       </section>
+
+      <div className="px-4 text-center text-white">
+        <h1 className="text-2xl font-bold ">Currently we are not providing the paid test series. We will be available soon.</h1>
+        <h2 className="text-[25px]">Stay Tuned</h2>
+      </div>
+      
       {showFeedback && (
         <FeedbackPage
           onClose={() => setShowFeeback(false)}
